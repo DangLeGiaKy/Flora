@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD26BA73-9F73-475C-B344-AB14BB284386}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>test</RootNamespace>
+    <AssemblyName>test</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BUS\SinhvienBUS.cs" />
+    <Compile Include="DAL\Connection.cs" />
+    <Compile Include="DAL\SinhvienDAL.cs" />
+    <Compile Include="DTO\SinhvienDTO.cs" />
+    <Compile Include="GUI\Config.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Config.Designer.cs">
+      <DependentUpon>Config.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Bán hàng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Bán hàng.Designer.cs">
+      <DependentUpon>Bán hàng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Báo cáo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Báo cáo.Designer.cs">
+      <DependentUpon>Báo cáo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Thêm nhà cung cấp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Thêm nhà cung cấp.Designer.cs">
+      <DependentUpon>Thêm nhà cung cấp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Nhà cung cấp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Nhà cung cấp.Designer.cs">
+      <DependentUpon>Nhà cung cấp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Nhập kho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Nhập kho.Designer.cs">
+      <DependentUpon>Nhập kho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Kho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Kho.Designer.cs">
+      <DependentUpon>Kho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Thêm khách hàng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Thêm khách hàng.Designer.cs">
+      <DependentUpon>Thêm khách hàng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Khách hàng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Khách hàng.Designer.cs">
+      <DependentUpon>Khách hàng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Thêm đơn hàng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Thêm đơn hàng.Designer.cs">
+      <DependentUpon>Thêm đơn hàng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Đơn hàng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Đơn hàng.Designer.cs">
+      <DependentUpon>Đơn hàng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QLSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\QLSP.Designer.cs">
+      <DependentUpon>QLSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Sinhvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Sinhvien.Designer.cs">
+      <DependentUpon>Sinhvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\Bán hàng.resx">
+      <DependentUpon>Bán hàng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Báo cáo.resx">
+      <DependentUpon>Báo cáo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Nhà cung cấp.resx">
+      <DependentUpon>Nhà cung cấp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Nhập kho.resx">
+      <DependentUpon>Nhập kho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Kho.resx">
+      <DependentUpon>Kho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Thêm khách hàng.resx">
+      <DependentUpon>Thêm khách hàng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Khách hàng.resx">
+      <DependentUpon>Khách hàng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QLSP.resx">
+      <DependentUpon>QLSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Config.resx">
+      <DependentUpon>Config.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Sinhvien.resx">
+      <DependentUpon>Sinhvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Thêm nhà cung cấp.resx">
+      <DependentUpon>Thêm nhà cung cấp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Thêm đơn hàng.resx">
+      <DependentUpon>Thêm đơn hàng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Đơn hàng.resx">
+      <DependentUpon>Đơn hàng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-11-16 002026.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z7198534940934_0fee76794b688cb80804cf38e3da8eaa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3cb45bde-8b6f-4ed9-b4e1-117690c56c9f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-11-16 002520.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
