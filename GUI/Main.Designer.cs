@@ -35,11 +35,11 @@
             this.btndonhang = new System.Windows.Forms.Button();
             this.btnkhachhang = new System.Windows.Forms.Button();
             this.ntmsanpham = new System.Windows.Forms.Button();
-            this.btnkho = new System.Windows.Forms.Button();
             this.btnncc = new System.Windows.Forms.Button();
             this.btntk = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // label1
@@ -67,7 +67,7 @@
             // btndangxuat
             // 
             this.btndangxuat.ForeColor = System.Drawing.Color.Black;
-            this.btndangxuat.Location = new System.Drawing.Point(789, 32);
+            this.btndangxuat.Location = new System.Drawing.Point(797, 32);
             this.btndangxuat.Name = "btndangxuat";
             this.btndangxuat.Size = new System.Drawing.Size(84, 34);
             this.btndangxuat.TabIndex = 9;
@@ -88,7 +88,7 @@
             // btndonhang
             // 
             this.btndonhang.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btndonhang.Location = new System.Drawing.Point(129, 96);
+            this.btndonhang.Location = new System.Drawing.Point(141, 96);
             this.btndonhang.Name = "btndonhang";
             this.btndonhang.Size = new System.Drawing.Size(111, 32);
             this.btndonhang.TabIndex = 11;
@@ -98,7 +98,7 @@
             // btnkhachhang
             // 
             this.btnkhachhang.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnkhachhang.Location = new System.Drawing.Point(257, 96);
+            this.btnkhachhang.Location = new System.Drawing.Point(272, 96);
             this.btnkhachhang.Name = "btnkhachhang";
             this.btnkhachhang.Size = new System.Drawing.Size(111, 32);
             this.btnkhachhang.TabIndex = 12;
@@ -108,27 +108,17 @@
             // ntmsanpham
             // 
             this.ntmsanpham.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ntmsanpham.Location = new System.Drawing.Point(390, 96);
+            this.ntmsanpham.Location = new System.Drawing.Point(404, 96);
             this.ntmsanpham.Name = "ntmsanpham";
             this.ntmsanpham.Size = new System.Drawing.Size(111, 32);
             this.ntmsanpham.TabIndex = 13;
             this.ntmsanpham.Text = "Sản phẩm";
             this.ntmsanpham.UseVisualStyleBackColor = true;
             // 
-            // btnkho
-            // 
-            this.btnkho.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnkho.Location = new System.Drawing.Point(519, 96);
-            this.btnkho.Name = "btnkho";
-            this.btnkho.Size = new System.Drawing.Size(111, 32);
-            this.btnkho.TabIndex = 14;
-            this.btnkho.Text = "Kho ";
-            this.btnkho.UseVisualStyleBackColor = true;
-            // 
             // btnncc
             // 
             this.btnncc.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnncc.Location = new System.Drawing.Point(651, 96);
+            this.btnncc.Location = new System.Drawing.Point(536, 96);
             this.btnncc.Name = "btnncc";
             this.btnncc.Size = new System.Drawing.Size(111, 32);
             this.btnncc.TabIndex = 15;
@@ -138,12 +128,30 @@
             // btntk
             // 
             this.btntk.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btntk.Location = new System.Drawing.Point(777, 96);
+            this.btntk.Location = new System.Drawing.Point(653, 96);
             this.btntk.Name = "btntk";
             this.btntk.Size = new System.Drawing.Size(111, 32);
             this.btntk.TabIndex = 16;
             this.btntk.Text = "Tài khoản";
             this.btntk.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Location = new System.Drawing.Point(770, 96);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(111, 32);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Báo cáo";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            this.panel2.BackgroundImage = global::test.Properties.Resources.Screenshot_2025_11_16_002026;
+            this.panel2.Location = new System.Drawing.Point(12, 134);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(876, 428);
+            this.panel2.TabIndex = 17;
             // 
             // panel1
             // 
@@ -155,24 +163,16 @@
             this.panel1.Size = new System.Drawing.Size(124, 88);
             this.panel1.TabIndex = 5;
             // 
-            // panel2
-            // 
-            this.panel2.BackgroundImage = global::test.Properties.Resources.Screenshot_2025_11_16_002026;
-            this.panel2.Location = new System.Drawing.Point(12, 134);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(876, 428);
-            this.panel2.TabIndex = 17;
-            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(255)))), ((int)(((byte)(219)))));
             this.ClientSize = new System.Drawing.Size(900, 574);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.btntk);
             this.Controls.Add(this.btnncc);
-            this.Controls.Add(this.btnkho);
             this.Controls.Add(this.ntmsanpham);
             this.Controls.Add(this.btnkhachhang);
             this.Controls.Add(this.btndonhang);
@@ -184,7 +184,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Coral;
             this.Name = "Main";
-            this.Text = "Form1";
+            this.Text = "Trang chủ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,10 +198,10 @@
         private System.Windows.Forms.Button btndonhang;
         private System.Windows.Forms.Button btnkhachhang;
         private System.Windows.Forms.Button ntmsanpham;
-        private System.Windows.Forms.Button btnkho;
         private System.Windows.Forms.Button btnncc;
         private System.Windows.Forms.Button btntk;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button1;
     }
 }

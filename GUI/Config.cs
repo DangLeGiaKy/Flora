@@ -57,7 +57,7 @@ namespace test.GUI
                     MessageBox.Show("Kết nối thành công!");
 
                     this.Hide();
-                    new Sinhvien().ShowDialog();
+                    new Login().ShowDialog();
                     this.Close();
                 }
             }

@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label5 = new System.Windows.Forms.Label();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label5 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -56,23 +56,21 @@
             this.panel1.Size = new System.Drawing.Size(725, 159);
             this.panel1.TabIndex = 0;
             // 
-            // comboBox1
+            // dateTimePicker2
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(224, 32);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(269, 24);
-            this.comboBox1.TabIndex = 73;
-            this.comboBox1.Text = "Chọn loại báo cáo";
+            this.dateTimePicker2.Location = new System.Drawing.Point(240, 122);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(253, 22);
+            this.dateTimePicker2.TabIndex = 77;
             // 
-            // label1
+            // label2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(117, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 16);
-            this.label1.TabIndex = 72;
-            this.label1.Text = "Loại báo cáo";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(139, 127);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(64, 16);
+            this.label2.TabIndex = 76;
+            this.label2.Text = "Đến ngày";
             // 
             // dateTimePicker1
             // 
@@ -90,21 +88,23 @@
             this.label5.TabIndex = 74;
             this.label5.Text = "Từ ngày";
             // 
-            // dateTimePicker2
+            // comboBox1
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(240, 122);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(253, 22);
-            this.dateTimePicker2.TabIndex = 77;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(224, 32);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(269, 24);
+            this.comboBox1.TabIndex = 73;
+            this.comboBox1.Text = "Chọn loại báo cáo";
             // 
-            // label2
+            // label1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(139, 127);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 16);
-            this.label2.TabIndex = 76;
-            this.label2.Text = "Đến ngày";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(132, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(86, 16);
+            this.label1.TabIndex = 72;
+            this.label1.Text = "Loại báo cáo";
             // 
             // dataGridView1
             // 
@@ -118,7 +118,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(153, 213);
+            this.button1.Location = new System.Drawing.Point(183, 214);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(122, 23);
             this.button1.TabIndex = 78;
@@ -136,7 +136,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(502, 213);
+            this.button3.Location = new System.Drawing.Point(491, 214);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(122, 23);
             this.button3.TabIndex = 80;

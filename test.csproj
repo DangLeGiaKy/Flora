@@ -68,6 +68,12 @@
     <Compile Include="GUI\Báo cáo.Designer.cs">
       <DependentUpon>Báo cáo.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Đổi mật khẩu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Đổi mật khẩu.Designer.cs">
+      <DependentUpon>Đổi mật khẩu.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Thêm nhà cung cấp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -186,6 +192,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Đơn hàng.resx">
       <DependentUpon>Đơn hàng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Đổi mật khẩu.resx">
+      <DependentUpon>Đổi mật khẩu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

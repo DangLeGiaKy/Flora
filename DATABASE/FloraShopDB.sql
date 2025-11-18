@@ -50,13 +50,14 @@ CREATE TABLE NhaCungCap (
 );
 
 -- ===================================
--- 4. BẢNG KHO (SẢN PHẨM) - ĐÃ CÓ LOẠI HÀNG
+-- 4. BẢNG KHO (SẢN PHẨM) - ✅ CÓ GIÁ NHẬP VÀ GIÁ BÁN
 -- ===================================
 CREATE TABLE Kho (
     MaSanPham VARCHAR(20) PRIMARY KEY,
     TenSanPham NVARCHAR(150) NOT NULL,
-    LoaiHang NVARCHAR(100) NOT NULL,  -- ✅ THÊM TRỰC TIẾP (Hoa tươi, Chậu cây, Phụ kiện...)
-    DonGia DECIMAL(18, 2) NOT NULL CHECK (DonGia >= 0),
+    LoaiHang NVARCHAR(100) NOT NULL,
+    GiaNhap DECIMAL(18, 2) NOT NULL CHECK (GiaNhap >= 0),      -- ✅ GIÁ NHẬP
+    GiaBan DECIMAL(18, 2) NOT NULL CHECK (GiaBan >= 0),        -- ✅ GIÁ BÁN
     SoLuongTon INT NOT NULL DEFAULT 0 CHECK (SoLuongTon >= 0),
     DonViTinh NVARCHAR(20) DEFAULT N'Cái',
     MoTa NVARCHAR(500),
@@ -75,6 +76,8 @@ CREATE TABLE HoaDon (
     MaNhanVien VARCHAR(20) NOT NULL,
     NgayLap DATETIME DEFAULT GETDATE(),
     TongTien DECIMAL(18, 2) NOT NULL DEFAULT 0,
+    TongGiaNhap DECIMAL(18, 2) NOT NULL DEFAULT 0,             -- ✅ TỔNG GIÁ NHẬP
+    LoiNhuan DECIMAL(18, 2) NOT NULL DEFAULT 0,                -- ✅ LỢI NHUẬN
     TienKhachDua DECIMAL(18, 2) DEFAULT 0,
     TienThoiLai DECIMAL(18, 2) DEFAULT 0,
     TrangThai NVARCHAR(30) DEFAULT N'Đã thanh toán',
@@ -91,8 +94,11 @@ CREATE TABLE ChiTietHoaDon (
     MaHoaDon VARCHAR(20) NOT NULL,
     MaSanPham VARCHAR(20) NOT NULL,
     SoLuong INT NOT NULL CHECK (SoLuong > 0),
-    DonGia DECIMAL(18, 2) NOT NULL,
-    ThanhTien DECIMAL(18, 2) NOT NULL,
+    GiaNhap DECIMAL(18, 2) NOT NULL,                           -- ✅ GIÁ NHẬP TẠI THỜI ĐIỂM BÁN
+    GiaBan DECIMAL(18, 2) NOT NULL,                            -- ✅ GIÁ BÁN TẠI THỜI ĐIỂM BÁN
+    ThanhTien DECIMAL(18, 2) NOT NULL,                         -- ✅ THÀNH TIỀN (Số lượng × Giá bán)
+    TongGiaNhap DECIMAL(18, 2) NOT NULL,                       -- ✅ TỔNG GIÁ NHẬP (Số lượng × Giá nhập)
+    LoiNhuan DECIMAL(18, 2) NOT NULL,                          -- ✅ LỢI NHUẬN (ThanhTien - TongGiaNhap)
     FOREIGN KEY (MaHoaDon) REFERENCES HoaDon(MaHoaDon) ON DELETE CASCADE,
     FOREIGN KEY (MaSanPham) REFERENCES Kho(MaSanPham)
 );
@@ -107,6 +113,8 @@ CREATE TABLE DonHang (
     NgayDat DATETIME DEFAULT GETDATE(),
     NgayGiao DATETIME,
     TongTien DECIMAL(18, 2) NOT NULL DEFAULT 0,
+    TongGiaNhap DECIMAL(18, 2) NOT NULL DEFAULT 0,             -- ✅ TỔNG GIÁ NHẬP
+    LoiNhuan DECIMAL(18, 2) NOT NULL DEFAULT 0,                -- ✅ LỢI NHUẬN
     TrangThai NVARCHAR(30) DEFAULT N'Đang xử lý' 
         CHECK (TrangThai IN (N'Đang xử lý', N'Đã xác nhận', N'Đang giao', N'Hoàn tất', N'Hủy')),
     GhiChu NVARCHAR(500),
@@ -124,8 +132,11 @@ CREATE TABLE ChiTietDonHang (
     MaDonHang VARCHAR(20) NOT NULL,
     MaSanPham VARCHAR(20) NOT NULL,
     SoLuong INT NOT NULL CHECK (SoLuong > 0),
-    DonGia DECIMAL(18, 2) NOT NULL,
-    ThanhTien DECIMAL(18, 2) NOT NULL,
+    GiaNhap DECIMAL(18, 2) NOT NULL,                           -- ✅ GIÁ NHẬP TẠI THỜI ĐIỂM ĐẶT
+    GiaBan DECIMAL(18, 2) NOT NULL,                            -- ✅ GIÁ BÁN TẠI THỜI ĐIỂM ĐẶT
+    ThanhTien DECIMAL(18, 2) NOT NULL,                         -- ✅ THÀNH TIỀN
+    TongGiaNhap DECIMAL(18, 2) NOT NULL,                       -- ✅ TỔNG GIÁ NHẬP
+    LoiNhuan DECIMAL(18, 2) NOT NULL,                          -- ✅ LỢI NHUẬN
     FOREIGN KEY (MaDonHang) REFERENCES DonHang(MaDonHang) ON DELETE CASCADE,
     FOREIGN KEY (MaSanPham) REFERENCES Kho(MaSanPham)
 );
@@ -168,7 +179,6 @@ CREATE TABLE LichSuDoiMatKhau (
     NgayDoi DATETIME DEFAULT GETDATE(),
     FOREIGN KEY (MaUser) REFERENCES [User](MaUser)
 );
-
 -- ===================================
 -- INDEXES TỐI ƯU HIỆU SUẤT
 -- ===================================
@@ -201,15 +211,15 @@ INSERT INTO [User] VALUES
 
 -- Kho (Sản phẩm) - ✅ Có cột LoaiHang trực tiếp
 INSERT INTO Kho VALUES 
-('SP001', N'Hoa hồng đỏ', N'Hoa tươi', 50000, 100, N'Bó', N'Hoa hồng đỏ nhập khẩu', NULL, 1, GETDATE(), GETDATE()),
-('SP002', N'Hoa tulip', N'Hoa tươi', 80000, 50, N'Bó', N'Hoa tulip Hà Lan', NULL, 1, GETDATE(), GETDATE()),
-('SP003', N'Chậu lan hồ điệp', N'Chậu cây', 350000, 30, N'Chậu', N'Lan hồ điệp 5 cành', NULL, 1, GETDATE(), GETDATE()),
-('SP004', N'Hoa ly trắng', N'Hoa tươi', 120000, 40, N'Bó', N'Hoa ly trắng cao cấp', NULL, 1, GETDATE(), GETDATE()),
-('SP005', N'Giỏ hoa chúc mừng', N'Phụ kiện', 500000, 20, N'Giỏ', N'Giỏ hoa mix đẹp', NULL, 1, GETDATE(), GETDATE()),
-('SP006', N'Hoa cúc vàng', N'Hoa tươi', 35000, 80, N'Bó', N'Hoa cúc tươi', NULL, 1, GETDATE(), GETDATE()),
-('SP007', N'Chậu sen đá', N'Chậu cây', 150000, 25, N'Chậu', N'Sen đá mini', NULL, 1, GETDATE(), GETDATE()),
-('SP008', N'Kẹp hoa', N'Phụ kiện', 15000, 100, N'Cái', N'Kẹp trang trí hoa', NULL, 1, GETDATE(), GETDATE()),
-('SP009', N'Thiệp chúc mừng', N'Quà tặng', 20000, 200, N'Cái', N'Thiệp cao cấp', NULL, 1, GETDATE(), GETDATE());
+('SP001', N'Hoa hồng đỏ', N'Hoa tươi', 50000, 100, N'Bó',  NULL, 1, GETDATE(), GETDATE()),
+('SP002', N'Hoa tulip', N'Hoa tươi', 80000, 50, N'Bó',  NULL, 1, GETDATE(), GETDATE()),
+('SP003', N'Chậu lan hồ điệp', N'Chậu cây', 350000, 30, N'Chậu', NULL, 1, GETDATE(), GETDATE()),
+('SP004', N'Hoa ly trắng', N'Hoa tươi', 120000, 40, N'Bó',  NULL, 1, GETDATE(), GETDATE()),
+('SP005', N'Giỏ hoa chúc mừng', N'Phụ kiện', 500000, 20, N'Giỏ', NULL, 1, GETDATE(), GETDATE()),
+('SP006', N'Hoa cúc vàng', N'Hoa tươi', 35000, 80, N'Bó',  NULL, 1, GETDATE(), GETDATE()),
+('SP007', N'Chậu sen đá', N'Chậu cây', 150000, 25, N'Chậu',  NULL, 1, GETDATE(), GETDATE()),
+('SP008', N'Kẹp hoa', N'Phụ kiện', 15000, 100, N'Cái',  NULL, 1, GETDATE(), GETDATE()),
+('SP009', N'Thiệp chúc mừng', N'Quà tặng', 20000, 200, N'Cái',  NULL, 1, GETDATE(), GETDATE());
 
 -- Khách hàng
 INSERT INTO KhachHang VALUES 

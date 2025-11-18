@@ -11,3 +11,15 @@ C:\Users\84373\OneDrive\Tài liệu\CNPM\test\test\obj\Debug\test.pdb
 C:\Users\84373\OneDrive\Tài liệu\CNPM\test\test\obj\Debug\test.exe.config
 C:\Users\84373\OneDrive\Tài liệu\CNPM\test\test\obj\Debug\test.GUI.Config.resources
 C:\Users\84373\OneDrive\Tài liệu\CNPM\test\test\obj\Debug\test.GUI.Login.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\test\test\obj\Debug\test.GUI.Form1.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\test\test\obj\Debug\test.GUI.Form9.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\test\test\obj\Debug\test.GUI.Form7.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\test\test\obj\Debug\test.GUI.Form6.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\test\test\obj\Debug\test.GUI.Kho.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\test\test\obj\Debug\test.GUI.Form5.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\test\test\obj\Debug\test.GUI.Form4.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\test\test\obj\Debug\test.GUI.QLSP.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\test\test\obj\Debug\test.GUI.Main.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\test\test\obj\Debug\test.GUI.Form8.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\test\test\obj\Debug\test.GUI.Form3.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\test\test\obj\Debug\test.GUI.Form2.resources
