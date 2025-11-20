@@ -37,8 +37,8 @@
             this.ntmsanpham = new System.Windows.Forms.Button();
             this.btnncc = new System.Windows.Forms.Button();
             this.btntk = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnbc = new System.Windows.Forms.Button();
+            this.pnlFormLoader = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
@@ -78,22 +78,24 @@
             // btnbanhang
             // 
             this.btnbanhang.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnbanhang.Location = new System.Drawing.Point(12, 96);
+            this.btnbanhang.Location = new System.Drawing.Point(38, 96);
             this.btnbanhang.Name = "btnbanhang";
             this.btnbanhang.Size = new System.Drawing.Size(111, 32);
             this.btnbanhang.TabIndex = 10;
             this.btnbanhang.Text = "Bán hàng";
             this.btnbanhang.UseVisualStyleBackColor = true;
+            this.btnbanhang.Click += new System.EventHandler(this.btnbanhang_Click);
             // 
             // btndonhang
             // 
             this.btndonhang.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btndonhang.Location = new System.Drawing.Point(141, 96);
+            this.btndonhang.Location = new System.Drawing.Point(155, 96);
             this.btndonhang.Name = "btndonhang";
             this.btndonhang.Size = new System.Drawing.Size(111, 32);
             this.btndonhang.TabIndex = 11;
             this.btndonhang.Text = "Đơn hàng";
             this.btndonhang.UseVisualStyleBackColor = true;
+            this.btndonhang.Click += new System.EventHandler(this.btndonhang_Click);
             // 
             // btnkhachhang
             // 
@@ -104,54 +106,60 @@
             this.btnkhachhang.TabIndex = 12;
             this.btnkhachhang.Text = "khách hàng";
             this.btnkhachhang.UseVisualStyleBackColor = true;
+            this.btnkhachhang.Click += new System.EventHandler(this.btnkhachhang_Click);
             // 
             // ntmsanpham
             // 
             this.ntmsanpham.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ntmsanpham.Location = new System.Drawing.Point(404, 96);
+            this.ntmsanpham.Location = new System.Drawing.Point(389, 96);
             this.ntmsanpham.Name = "ntmsanpham";
             this.ntmsanpham.Size = new System.Drawing.Size(111, 32);
             this.ntmsanpham.TabIndex = 13;
             this.ntmsanpham.Text = "Sản phẩm";
             this.ntmsanpham.UseVisualStyleBackColor = true;
+            this.ntmsanpham.Click += new System.EventHandler(this.ntmsanpham_Click);
             // 
             // btnncc
             // 
             this.btnncc.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnncc.Location = new System.Drawing.Point(536, 96);
+            this.btnncc.Location = new System.Drawing.Point(506, 96);
             this.btnncc.Name = "btnncc";
             this.btnncc.Size = new System.Drawing.Size(111, 32);
             this.btnncc.TabIndex = 15;
             this.btnncc.Text = "Nhà cung cấp";
             this.btnncc.UseVisualStyleBackColor = true;
+            this.btnncc.Click += new System.EventHandler(this.btnncc_Click);
             // 
             // btntk
             // 
             this.btntk.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btntk.Location = new System.Drawing.Point(653, 96);
+            this.btntk.Location = new System.Drawing.Point(623, 96);
             this.btntk.Name = "btntk";
             this.btntk.Size = new System.Drawing.Size(111, 32);
             this.btntk.TabIndex = 16;
             this.btntk.Text = "Tài khoản";
             this.btntk.UseVisualStyleBackColor = true;
+            this.btntk.Click += new System.EventHandler(this.btntk_Click);
             // 
-            // button1
+            // btnbc
             // 
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(770, 96);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 32);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "Báo cáo";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnbc.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnbc.Location = new System.Drawing.Point(740, 96);
+            this.btnbc.Name = "btnbc";
+            this.btnbc.Size = new System.Drawing.Size(111, 32);
+            this.btnbc.TabIndex = 18;
+            this.btnbc.Text = "Báo cáo";
+            this.btnbc.UseVisualStyleBackColor = true;
+            this.btnbc.Click += new System.EventHandler(this.btnbc_Click);
             // 
-            // panel2
+            // pnlFormLoader
             // 
-            this.panel2.BackgroundImage = global::test.Properties.Resources.Screenshot_2025_11_16_002026;
-            this.panel2.Location = new System.Drawing.Point(12, 134);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(876, 428);
-            this.panel2.TabIndex = 17;
+            this.pnlFormLoader.BackgroundImage = global::test.Properties.Resources.Screenshot_2025_11_16_002026;
+            this.pnlFormLoader.Location = new System.Drawing.Point(2, 134);
+            this.pnlFormLoader.Name = "pnlFormLoader";
+            this.pnlFormLoader.Size = new System.Drawing.Size(893, 443);
+            this.pnlFormLoader.TabIndex = 17;
+            this.pnlFormLoader.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlFormLoader_Paint);
             // 
             // panel1
             // 
@@ -169,8 +177,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(255)))), ((int)(((byte)(219)))));
             this.ClientSize = new System.Drawing.Size(900, 574);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.btnbc);
+            this.Controls.Add(this.pnlFormLoader);
             this.Controls.Add(this.btntk);
             this.Controls.Add(this.btnncc);
             this.Controls.Add(this.ntmsanpham);
@@ -201,7 +209,7 @@
         private System.Windows.Forms.Button btnncc;
         private System.Windows.Forms.Button btntk;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel pnlFormLoader;
+        private System.Windows.Forms.Button btnbc;
     }
 }

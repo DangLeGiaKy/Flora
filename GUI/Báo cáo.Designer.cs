@@ -51,7 +51,7 @@
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(33, 37);
+            this.panel1.Location = new System.Drawing.Point(52, 35);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(725, 159);
             this.panel1.TabIndex = 0;
@@ -109,7 +109,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(33, 254);
+            this.dataGridView1.Location = new System.Drawing.Point(52, 252);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -118,7 +118,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(183, 214);
+            this.button1.Location = new System.Drawing.Point(202, 212);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(122, 23);
             this.button1.TabIndex = 78;
@@ -127,7 +127,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(339, 214);
+            this.button2.Location = new System.Drawing.Point(358, 212);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(122, 23);
             this.button2.TabIndex = 79;
@@ -136,7 +136,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(491, 214);
+            this.button3.Location = new System.Drawing.Point(510, 212);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(122, 23);
             this.button3.TabIndex = 80;

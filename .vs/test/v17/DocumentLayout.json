@@ -1,0 +1,379 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|c:\\users\\84373\\onedrive\\t\u00E0i li\u1EC7u\\cnpm\\cuoiki\\flora\\flora\\gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\b\u00E1o c\u00E1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\b\u00E1o c\u00E1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\nh\u00E0 cung c\u1EA5p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\nh\u00E0 cung c\u1EA5p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\qlsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\qlsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\kh\u00E1ch h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\kh\u00E1ch h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\th\u00EAm \u0111\u01A1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\th\u00EAm \u0111\u01A1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\th\u00EAm kh\u00E1ch h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\th\u00EAm kh\u00E1ch h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\th\u00EAm nh\u00E0 cung c\u1EA5p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\th\u00EAm nh\u00E0 cung c\u1EA5p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\\u0111\u01A1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\\u0111\u01A1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\\u0111\u1ED5i m\u1EADt kh\u1EA9u.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\\u0111\u1ED5i m\u1EADt kh\u1EA9u.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\b\u00E1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\b\u00E1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\84373\\AppData\\Local\\Temp\\.vsdbgsrc\\a8613399adff33ad90b7f685a61843a47ffe6e4634964d21ecc9ef6ebfb26ed8\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\\u0111\u01A1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\\u0111\u01A1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\\u0111\u1ED5i m\u1EADt kh\u1EA9u.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\\u0111\u1ED5i m\u1EADt kh\u1EA9u.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\qlsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\qlsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\gui\\nh\u1EADp kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\nh\u1EADp kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\84373\\AppData\\Local\\Temp\\.vsdbgsrc\\a8613399adff33ad90b7f685a61843a47ffe6e4634964d21ecc9ef6ebfb26ed8\\Login.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\a8613399adff33ad90b7f685a61843a47ffe6e4634964d21ecc9ef6ebfb26ed8\\Login.cs",
+              "ToolTip": "C:\\Users\\84373\\AppData\\Local\\Temp\\.vsdbgsrc\\a8613399adff33ad90b7f685a61843a47ffe6e4634964d21ecc9ef6ebfb26ed8\\Login.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\a8613399adff33ad90b7f685a61843a47ffe6e4634964d21ecc9ef6ebfb26ed8\\Login.cs [Read Only]",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAEEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T15:37:00.201Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Main.cs",
+              "RelativeDocumentMoniker": "GUI\\Main.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Main.cs",
+              "RelativeToolTip": "GUI\\Main.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAADwv0oAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T15:20:22.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs",
+              "RelativeDocumentMoniker": "GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs",
+              "RelativeToolTip": "GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T15:16:43.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Login.cs",
+              "RelativeDocumentMoniker": "GUI\\Login.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Login.cs",
+              "RelativeToolTip": "GUI\\Login.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvwgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T15:15:38.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T15:14:30.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Login.cs",
+              "RelativeDocumentMoniker": "GUI\\Login.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Login.cs [Design]",
+              "RelativeToolTip": "GUI\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T14:38:17.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs",
+              "RelativeDocumentMoniker": "GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs [Design]",
+              "RelativeToolTip": "GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T14:34:49.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Nh\u00E0 cung c\u1EA5p.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Nh\u00E0 cung c\u1EA5p.cs",
+              "RelativeDocumentMoniker": "GUI\\Nh\u00E0 cung c\u1EA5p.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Nh\u00E0 cung c\u1EA5p.cs [Design]",
+              "RelativeToolTip": "GUI\\Nh\u00E0 cung c\u1EA5p.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T08:46:23.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Th\u00EAm nh\u00E0 cung c\u1EA5p.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Th\u00EAm nh\u00E0 cung c\u1EA5p.cs",
+              "RelativeDocumentMoniker": "GUI\\Th\u00EAm nh\u00E0 cung c\u1EA5p.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Th\u00EAm nh\u00E0 cung c\u1EA5p.cs [Design]",
+              "RelativeToolTip": "GUI\\Th\u00EAm nh\u00E0 cung c\u1EA5p.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T08:54:53.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "B\u00E1o c\u00E1o.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\B\u00E1o c\u00E1o.cs",
+              "RelativeDocumentMoniker": "GUI\\B\u00E1o c\u00E1o.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\B\u00E1o c\u00E1o.cs [Design]",
+              "RelativeToolTip": "GUI\\B\u00E1o c\u00E1o.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T08:57:14.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Main.cs",
+              "RelativeDocumentMoniker": "GUI\\Main.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Main.cs [Design]",
+              "RelativeToolTip": "GUI\\Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T15:30:37.499Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Config.cs",
+              "RelativeDocumentMoniker": "GUI\\Config.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Config.cs",
+              "RelativeToolTip": "GUI\\Config.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwDUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T08:15:33.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Nh\u1EADp kho.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Nh\u1EADp kho.cs",
+              "RelativeDocumentMoniker": "GUI\\Nh\u1EADp kho.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\test\\test\\GUI\\Nh\u1EADp kho.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\test\\test\\GUI\\Nh\u1EADp kho.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T08:18:01.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "QLSP.cs",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\QLSP.cs",
+              "RelativeDocumentMoniker": "GUI\\QLSP.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\QLSP.cs",
+              "RelativeToolTip": "GUI\\QLSP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T08:16:46.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Th\u00EAm \u0111\u01A1n h\u00E0ng.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Th\u00EAm \u0111\u01A1n h\u00E0ng.cs",
+              "RelativeDocumentMoniker": "GUI\\Th\u00EAm \u0111\u01A1n h\u00E0ng.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Th\u00EAm \u0111\u01A1n h\u00E0ng.cs [Design]",
+              "RelativeToolTip": "GUI\\Th\u00EAm \u0111\u01A1n h\u00E0ng.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T01:54:58.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Kho.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Kho.cs",
+              "RelativeDocumentMoniker": "GUI\\Kho.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Kho.cs [Design]",
+              "RelativeToolTip": "GUI\\Kho.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T08:14:08.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Th\u00EAm kh\u00E1ch h\u00E0ng.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Th\u00EAm kh\u00E1ch h\u00E0ng.cs",
+              "RelativeDocumentMoniker": "GUI\\Th\u00EAm kh\u00E1ch h\u00E0ng.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Th\u00EAm kh\u00E1ch h\u00E0ng.cs [Design]",
+              "RelativeToolTip": "GUI\\Th\u00EAm kh\u00E1ch h\u00E0ng.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T03:23:12.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Kh\u00E1ch h\u00E0ng.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Kh\u00E1ch h\u00E0ng.cs",
+              "RelativeDocumentMoniker": "GUI\\Kh\u00E1ch h\u00E0ng.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Kh\u00E1ch h\u00E0ng.cs [Design]",
+              "RelativeToolTip": "GUI\\Kh\u00E1ch h\u00E0ng.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T02:47:28.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "\u0110\u01A1n h\u00E0ng.cs",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\\u0110\u01A1n h\u00E0ng.cs",
+              "RelativeDocumentMoniker": "GUI\\\u0110\u01A1n h\u00E0ng.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\\u0110\u01A1n h\u00E0ng.cs",
+              "RelativeToolTip": "GUI\\\u0110\u01A1n h\u00E0ng.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T01:52:23.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "\u0110\u01A1n h\u00E0ng.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\\u0110\u01A1n h\u00E0ng.cs",
+              "RelativeDocumentMoniker": "GUI\\\u0110\u01A1n h\u00E0ng.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\\u0110\u01A1n h\u00E0ng.cs [Design]",
+              "RelativeToolTip": "GUI\\\u0110\u01A1n h\u00E0ng.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T01:44:31.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Config.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Config.cs",
+              "RelativeDocumentMoniker": "GUI\\Config.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Config.cs [Design]",
+              "RelativeToolTip": "GUI\\Config.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T01:43:49.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QLSP.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\QLSP.cs",
+              "RelativeDocumentMoniker": "GUI\\QLSP.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\QLSP.cs [Design]",
+              "RelativeToolTip": "GUI\\QLSP.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T01:19:23.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "B\u00E1n h\u00E0ng.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\B\u00E1n h\u00E0ng.cs",
+              "RelativeDocumentMoniker": "GUI\\B\u00E1n h\u00E0ng.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\B\u00E1n h\u00E0ng.cs [Design]",
+              "RelativeToolTip": "GUI\\B\u00E1n h\u00E0ng.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T00:31:52.448Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
