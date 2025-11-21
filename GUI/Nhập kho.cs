@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace test.GUI
 {
-    public partial class Form6 : Form
+    public partial class frmNhkho : Form
     {
-        public Form6()
+        public frmNhkho()
         {
             InitializeComponent();
         }

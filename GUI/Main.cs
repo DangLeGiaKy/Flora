@@ -29,7 +29,7 @@ namespace test.GUI
             
             this.pnlFormLoader.Controls.Clear();
             Form1 frmBanhang = new Form1() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
-            frmBanhang.FormBorderStyle = FormBorderStyle.None;
+            
             this.pnlFormLoader.Controls.Add(frmBanhang);
             frmBanhang.Show();
             
@@ -61,7 +61,7 @@ namespace test.GUI
         private void ntmsanpham_Click(object sender, EventArgs e)
         {
             this.pnlFormLoader.Controls.Clear();
-            QLSP frmsp = new QLSP() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            Kho frmsp = new Kho() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
             frmsp.FormBorderStyle = FormBorderStyle.None;
             this.pnlFormLoader.Controls.Add(frmsp);
             frmsp.Show();

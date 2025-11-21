@@ -21,5 +21,13 @@ namespace test.GUI
         {
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+            frmNhkho frmnk = new frmNhkho() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            
+            frmnk.Show();
+        }
     }
 }
