@@ -43,7 +43,7 @@ namespace test.GUI
             string username = txtAccount.Text.Trim();
             string password = txtPassword.Text.Trim();
 
-            using (SqlConnection conn = new SqlConnection("Data Source=ANH-VU\\MSSQLSERVER01;Initial Catalog=FloraShopDB;Integrated Security=True"))
+            using (SqlConnection conn = new SqlConnection("Data Source=khanhvinh\\SQLEXPRESS;Initial Catalog=FloraShopDB;Integrated Security=True"))
             {
                 conn.Open();
                 string query = "SELECT COUNT(*) FROM [User] WHERE TenDangNhap=@user AND MatKhau=@pass";
