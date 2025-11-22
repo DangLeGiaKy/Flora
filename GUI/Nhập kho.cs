@@ -13,14 +13,12 @@ namespace test.GUI
 {
     public partial class frmNhkho : Form
     {
-        // Chuỗi kết nối - QUAN TRỌNG: Thay đổi theo cấu hình của bạn
+        // Chuỗi kết nối
         private string connectionString = "Server=khanhvinh\\SQLEXPRESS;Database=FloraShopDB;Integrated Security=True;";
 
         public frmNhkho()
         {
             InitializeComponent();
-
-            // Đăng ký sự kiện Load
             this.Load += frmNhkho_Load;
         }
 
@@ -28,9 +26,6 @@ namespace test.GUI
         {
             try
             {
-                // Test message
-                MessageBox.Show("Form đã load!", "Test");
-
                 // Tự động tạo mã sản phẩm
                 GenerateProductCode();
 
@@ -98,7 +93,7 @@ namespace test.GUI
             }
         }
 
-        // Load nhà cung cấp
+        // Load nhà cung cấp từ database
         private void LoadNhaCungCap()
         {
             try
@@ -107,38 +102,52 @@ namespace test.GUI
 
                 cboNCC.Items.Clear();
 
-                // Thử load từ database
-                try
+                using (SqlConnection conn = new SqlConnection(connectionString))
                 {
-                    using (SqlConnection conn = new SqlConnection(connectionString))
-                    {
-                        conn.Open();
-                        string query = "SELECT MaNCC, TenNCC FROM NhaCungCap ORDER BY TenNCC";
-                        SqlCommand cmd = new SqlCommand(query, conn);
-                        SqlDataReader reader = cmd.ExecuteReader();
+                    conn.Open();
 
-                        while (reader.Read())
+                    // Tên cột đúng theo cấu trúc database
+                    string query = "SELECT MaNhaCungCap, TenNhaCungCap FROM NhaCungCap ORDER BY TenNhaCungCap";
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        cboNCC.Items.Add(new ComboBoxItem
                         {
-                            cboNCC.Items.Add(reader["TenNCC"].ToString());
-                        }
+                            Value = reader["MaNhaCungCap"].ToString(),
+                            Text = reader["TenNhaCungCap"].ToString()
+                        });
+                    }
+
+                    reader.Close();
+
+                    if (cboNCC.Items.Count > 0)
+                    {
+                        cboNCC.DisplayMember = "Text";
+                        cboNCC.ValueMember = "Value";
+                        cboNCC.SelectedIndex = 0;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Chưa có nhà cung cấp nào trong database!", "Thông báo",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
-                catch
-                {
-                    // Nếu không có bảng hoặc lỗi kết nối, dùng dữ liệu mẫu
-                    string[] suppliers = { "Nhà cung cấp A", "Nhà cung cấp B",
-                                          "Nhà cung cấp C", "Nhà cung cấp D" };
-                    cboNCC.Items.AddRange(suppliers);
-                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi load nhà cung cấp: " + ex.Message + "\n\nDùng dữ liệu mẫu thay thế.",
+                    "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                // Dùng dữ liệu mẫu nếu lỗi
+                string[] suppliers = { "Nhà cung cấp A", "Nhà cung cấp B", "Nhà cung cấp C", "Nhà cung cấp D" };
+                cboNCC.Items.AddRange(suppliers);
 
                 if (cboNCC.Items.Count > 0)
                 {
                     cboNCC.SelectedIndex = 0;
                 }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Lỗi load nhà cung cấp: " + ex.Message);
             }
         }
 
@@ -188,20 +197,17 @@ namespace test.GUI
             }
             catch (Exception ex)
             {
-                // Nếu lỗi database thì tạo mã tạm
                 txtMaSanPham.Text = "SP001";
-                MessageBox.Show("Không thể kết nối database để tạo mã tự động. Dùng mã mặc định SP001.\n\nLỗi: " + ex.Message,
+                MessageBox.Show("Không thể tạo mã tự động. Dùng mã mặc định SP001.\n\nLỗi: " + ex.Message,
                     "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
-        // Button Nhập Hàng - QUAN TRỌNG
+        // Button Nhập Hàng
         private void btnNhapHang_Click(object sender, EventArgs e)
         {
             try
             {
-                MessageBox.Show("Button Nhập Hàng được click!", "Test");
-
                 // Validate dữ liệu
                 if (!ValidateInput())
                 {
@@ -229,7 +235,7 @@ namespace test.GUI
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi: " + ex.Message + "\n\nStack: " + ex.StackTrace, "Lỗi",
+                MessageBox.Show("Lỗi: " + ex.Message, "Lỗi",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -350,13 +356,13 @@ namespace test.GUI
                         return false;
                     }
 
-                    // Insert
+                    // Insert sản phẩm mới (không có cột MoTa)
                     string query = @"INSERT INTO Kho 
                                     (MaSanPham, TenSanPham, LoaiHang, GiaNhap, GiaBan, 
-                                     SoLuongTon, DonViTinh, MoTa, TrangThai, NgayTao, NgayCapNhat)
+                                     SoLuongTon, DonViTinh, TrangThai, NgayTao, NgayCapNhat)
                                     VALUES 
                                     (@MaSanPham, @TenSanPham, @LoaiHang, @GiaNhap, @GiaBan, 
-                                     @SoLuongTon, @DonViTinh, @MoTa, 1, GETDATE(), GETDATE())";
+                                     @SoLuongTon, @DonViTinh, 1, GETDATE(), GETDATE())";
 
                     SqlCommand cmd = new SqlCommand(query, conn);
                     cmd.Parameters.AddWithValue("@MaSanPham", txtMaSanPham.Text.Trim());
@@ -373,7 +379,7 @@ namespace test.GUI
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi thêm sản phẩm: " + ex.Message + "\n\nChi tiết: " + ex.StackTrace,
+                MessageBox.Show("Lỗi thêm sản phẩm: " + ex.Message,
                     "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
@@ -396,7 +402,7 @@ namespace test.GUI
                 dtpNgayNhap.Value = DateTime.Now;
         }
 
-        // Các sự kiện (có thể để trống)
+        // Các sự kiện TextChanged và SelectedIndexChanged
         private void txtMaSanPham_TextChanged(object sender, EventArgs e) { }
         private void txtTenSanPham_TextChanged(object sender, EventArgs e) { }
         private void txtLoaiHang_TextChanged(object sender, EventArgs e) { }
@@ -407,44 +413,70 @@ namespace test.GUI
         private void txtSoLuong_TextChanged(object sender, EventArgs e) { }
         private void txtGiaNhap_TextChanged(object sender, EventArgs e) { }
     }
+
+    // Class hỗ trợ cho ComboBox
+    public class ComboBoxItem
+    {
+        public string Value { get; set; }
+        public string Text { get; set; }
+
+        public override string ToString()
+        {
+            return Text;
+        }
+    }
 }
 
 /*
-HƯỚNG DẪN KHẮC PHỤC LỖI:
+===========================================
+HƯỚNG DẪN SỬ DỤNG FILE HOÀN CHỈNH
+===========================================
 
-1. ✅ THAY CONNECTION STRING (dòng 17):
-   Ví dụ: "Server=localhost;Database=QuanLyKho;Integrated Security=True;"
+✅ CÁC CONTROL CẦN CÓ TRONG FORM:
+   - txtMaSanPham (TextBox) - Mã sản phẩm
+   - txtTenSanPham (TextBox) - Tên sản phẩm
+   - txtLoaiHang (TextBox) - Loại hàng
+   - txtGiaNhap (TextBox) - Giá nhập
+   - txtGiaBan (TextBox) - Giá bán
+   - txtSoLuong (TextBox) - Số lượng
+   - cboDonViTinh (ComboBox) - Đơn vị tính
+   - cboNCC (ComboBox) - Nhà cung cấp
+   - dtpNgayNhap (DateTimePicker) - Ngày nhập
+   - btnNhapHang (Button) - Nút nhập hàng
 
-2. ✅ KIỂM TRA TÊN CÁC CONTROL trong Properties:
-   - txtMaSanPham
-   - txtTenSanPham
-   - txtLoaiHang
-   - txtGiaNhap
-   - txtGiaBan
-   - txtSoLuong
-   - txtMoTa
-   - cboDonViTinh
-   - cboNCC (ĐÃ ĐỒNG BỘ)
-   - dtpNgayNhap
-   - btnNhapHang
+✅ CHỨC NĂNG:
+   - Tự động tạo mã sản phẩm (SP001, SP002,...)
+   - Mã sản phẩm bị khóa, không cho sửa
+   - Load danh sách đơn vị tính
+   - Load danh sách nhà cung cấp từ bảng NhaCungCap
+   - Validate đầy đủ trước khi thêm
+   - Kiểm tra trùng mã sản phẩm
+   - Thêm sản phẩm vào bảng Kho
+   - Tự động đóng form sau khi thêm thành công
 
-3. ✅ KIỂM TRA SỰ KIỆN btnNhapHang:
-   - Click vào btnNhapHang trong Designer
-   - Vào Properties → Events (⚡)
-   - Tìm Click event
-   - Đảm bảo có "btnNhapHang_Click"
+✅ CẤU TRÚC DATABASE ĐÃ ĐỒNG BỘ:
+   - Bảng Kho: MaSanPham, TenSanPham, LoaiHang, GiaNhap, GiaBan, 
+               SoLuongTon, DonViTinh, TrangThai, NgayTao, NgayCapNhat
+   - Bảng NhaCungCap: MaNhaCungCap, TenNhaCungCap, SoDienThoai, 
+                      Email, DiaChi, LoaiHangCungCap, GhiChu
 
-4. ✅ NẾU VẪN LỖI, THỬ:
-   - Build lại project (Ctrl + Shift + B)
-   - Clean Solution → Rebuild Solution
-   - Đóng Visual Studio và mở lại
+✅ CÁCH SỬ DỤNG:
+   1. Copy toàn bộ code này
+   2. Paste vào file frmNhkho.cs trong Visual Studio
+   3. Save (Ctrl + S)
+   4. Build → Rebuild Solution
+   5. Chạy (F5)
 
-5. ✅ TEST TỪNG BƯỚC:
-   - Khi mở form, có hiện "Form đã load!" không?
-   - Khi click btnNhapHang, có hiện "Button Nhập Hàng được click!" không?
-   - Nếu không hiện → Sự kiện chưa được gắn đúng
+✅ GỌI TỪ FORM KHO:
+   frmNhkho frm = new frmNhkho();
+   if (frm.ShowDialog() == DialogResult.OK)
+   {
+       LoadKhoData(); // Refresh dữ liệu
+   }
 
-6. ✅ NẾU CÓ LỖI VỀ NULL:
-   - Code đã có kiểm tra null (? operator)
-   - Nhưng đảm bảo tất cả control đều có tên đúng
+✅ LƯU Ý:
+   - Connection string đã được set đúng theo máy của bạn
+   - Code đã loại bỏ cột MoTa vì không có trong form
+   - Đã đồng bộ tên cột database: MaNhaCungCap, TenNhaCungCap
+   - Có fallback data nếu không kết nối được database
 */

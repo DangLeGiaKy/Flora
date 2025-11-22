@@ -75,8 +75,9 @@ C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora\Flora\obj\Debug\test.exe
 C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora\Flora\obj\Debug\test.pdb
 C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora\Flora\obj\Debug\test.GUI.Form1.resources
 C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora\Flora\obj\Debug\test.GUI.frmNhkho.resources
-C:\Users\ASUS\Desktop\Flora\bin\Debug\test.exe
 C:\Users\ASUS\Desktop\Flora\bin\Debug\test.exe.config
+C:\Users\ASUS\Desktop\Flora\bin\Debug\test.exe
+C:\Users\ASUS\Desktop\Flora\bin\Debug\test.pdb
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.csproj.AssemblyReference.cache
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.Form1.resources
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.Form9.resources
@@ -99,5 +100,3 @@ C:\Users\ASUS\Desktop\Flora\obj\Debug\test.csproj.GenerateResource.cache
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.exe
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.pdb
-C:\Users\ASUS\Desktop\Flora\bin\Debug\test.pdb
-C:\Users\ASUS\Desktop\Flora\obj\Debug\test.exe.config

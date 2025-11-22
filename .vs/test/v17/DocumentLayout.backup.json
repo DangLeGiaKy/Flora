@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\Flora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\nh\u1EADp kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|c:\\users\\asus\\desktop\\flora\\gui\\nh\u1EADp kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\nh\u1EADp kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\nh\u1EADp kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|c:\\users\\asus\\desktop\\flora\\gui\\nh\u1EADp kho.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\nh\u1EADp kho.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\nh\u1EADp kho.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -122,8 +122,7 @@
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Kho.cs [Design]",
               "RelativeToolTip": "GUI\\Kho.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T08:14:08.262Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-16T08:14:08.262Z"
             },
             {
               "$type": "Document",
@@ -156,7 +155,7 @@
               "RelativeDocumentMoniker": "GUI\\Nh\u1EADp kho.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Nh\u1EADp kho.cs",
               "RelativeToolTip": "GUI\\Nh\u1EADp kho.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAB4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOEBAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T23:02:10.022Z",
               "EditorCaption": ""
@@ -205,8 +204,7 @@
               "RelativeToolTip": "GUI\\Kho.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAB4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T08:38:49.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T08:38:49.161Z"
             },
             {
               "$type": "Document",
@@ -218,8 +216,7 @@
               "RelativeToolTip": "GUI\\Kho.Designer.cs",
               "ViewState": "AgIAAPoAAAAAAAAAAAAgwAkBAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T22:49:49.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T22:49:49.568Z"
             },
             {
               "$type": "Document",
