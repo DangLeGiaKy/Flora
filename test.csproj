@@ -33,8 +33,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.4, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\iTextSharp.5.5.13.4\lib\net461\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,9 +53,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BUS\BUS_KhachHang.cs" />
+    <Compile Include="BUS\ChiTietDonHangBUS.cs" />
+    <Compile Include="BUS\DonHangBUS.cs" />
+    <Compile Include="BUS\nhacungcap.cs" />
+    <Compile Include="BUS\QuanLyUser.BUS.cs" />
     <Compile Include="BUS\SinhvienBUS.cs" />
+    <Compile Include="DAL\BaoCaoPDFExporter.cs" />
+    <Compile Include="DAL\ChiTietDonHangDAL.cs" />
     <Compile Include="DAL\Connection.cs" />
+    <Compile Include="DAL\DAL_KhachHang.cs" />
+    <Compile Include="DAL\DAL_NhaCungCap.cs" />
+    <Compile Include="DAL\DonHangDAL.cs" />
+    <Compile Include="DAL\HoaDonPDFExporter.cs" />
+    <Compile Include="DAL\HoaDonPDFExporterr.cs" />
+    <Compile Include="DAL\KhachHangDAL.cs" />
+    <Compile Include="DAL\SanPhamDAL.cs" />
     <Compile Include="DAL\SinhvienDAL.cs" />
+    <Compile Include="DAL\UserDAL.cs" />
+    <Compile Include="DAL\UserSession.cs" />
+    <Compile Include="DTO\ChiTietDonHangDTO.cs" />
+    <Compile Include="DTO\DonHangDTO.cs" />
+    <Compile Include="DTO\UserDTO.cs" />
     <Compile Include="DTO\SinhvienDTO.cs" />
     <Compile Include="GUI\Config.cs">
       <SubType>Form</SubType>
@@ -67,6 +93,30 @@
     </Compile>
     <Compile Include="GUI\Báo cáo.Designer.cs">
       <DependentUpon>Báo cáo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\lichsu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\lichsu.Designer.cs">
+      <DependentUpon>lichsu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmThemSuaUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmThemSuaUser.Designer.cs">
+      <DependentUpon>frmThemSuaUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmQuanLyUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmQuanLyUser.Designer.cs">
+      <DependentUpon>frmQuanLyUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Xem hóa đơn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Xem hóa đơn.Designer.cs">
+      <DependentUpon>Xem hóa đơn.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\Đổi mật khẩu.cs">
       <SubType>Form</SubType>
@@ -116,11 +166,11 @@
     <Compile Include="GUI\Thêm đơn hàng.Designer.cs">
       <DependentUpon>Thêm đơn hàng.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Đơn hàng.cs">
+    <Compile Include="GUI\frmDonHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\Đơn hàng.Designer.cs">
-      <DependentUpon>Đơn hàng.cs</DependentUpon>
+    <Compile Include="GUI\frmDonHang.Designer.cs">
+      <DependentUpon>frmDonHang.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\QLSP.cs">
       <SubType>Form</SubType>
@@ -153,6 +203,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Báo cáo.resx">
       <DependentUpon>Báo cáo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\lichsu.resx">
+      <DependentUpon>lichsu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmQuanLyUser.resx">
+      <DependentUpon>frmQuanLyUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmThemSuaUser.resx">
+      <DependentUpon>frmThemSuaUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Nhà cung cấp.resx">
       <DependentUpon>Nhà cung cấp.cs</DependentUpon>
@@ -190,8 +249,11 @@
     <EmbeddedResource Include="GUI\Thêm đơn hàng.resx">
       <DependentUpon>Thêm đơn hàng.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Đơn hàng.resx">
-      <DependentUpon>Đơn hàng.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\Xem hóa đơn.resx">
+      <DependentUpon>Xem hóa đơn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmDonHang.resx">
+      <DependentUpon>frmDonHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Đổi mật khẩu.resx">
       <DependentUpon>Đổi mật khẩu.cs</DependentUpon>
@@ -206,6 +268,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -226,10 +289,15 @@
     <None Include="Resources\z7198534940934_0fee76794b688cb80804cf38e3da8eaa.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\3cb45bde-8b6f-4ed9-b4e1-117690c56c9f.png" />
+    <None Include="Resources\3cb45bde-8b6f-4ed9-b4e1-117690c56c9f.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Screenshot 2025-11-16 002520.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

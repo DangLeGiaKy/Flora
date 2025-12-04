@@ -84,14 +84,12 @@ C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.Form9.resources
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.Form7.resources
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.frmNhkho.resources
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.Kho.resources
-C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.Form5.resources
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.Form4.resources
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.QLSP.resources
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.Config.resources
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.Login.resources
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.Main.resources
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.Sinhvien.resources
-C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.Form8.resources
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.Form3.resources
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.Form2.resources
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.Form10.resources
@@ -100,3 +98,424 @@ C:\Users\ASUS\Desktop\Flora\obj\Debug\test.csproj.GenerateResource.cache
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.exe
 C:\Users\ASUS\Desktop\Flora\obj\Debug\test.pdb
+C:\Users\ASUS\Desktop\Flora\obj\Debug\test.exe.config
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\bin\Debug\test.exe.config
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\bin\Debug\test.exe
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\bin\Debug\test.pdb
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.csproj.AssemblyReference.cache
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.exe.config
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.GUI.Form1.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.GUI.Form9.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.GUI.Form7.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.GUI.frmNhkho.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.GUI.Kho.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.GUI.frmthemkh.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.GUI.Form4.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.GUI.QLSP.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.GUI.Config.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.GUI.Login.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.GUI.Main.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.GUI.Sinhvien.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.GUI.Frmthemncc.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.GUI.Form3.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.GUI.Form2.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.GUI.Form10.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.Properties.Resources.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.exe
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora_session\Flora\obj\Debug\test.pdb
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.GUI.Form1.resources
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.GUI.Form9.resources
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.GUI.Form7.resources
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.GUI.frmNhkho.resources
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.GUI.Kho.resources
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.GUI.frmthemkh.resources
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.GUI.Form4.resources
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.GUI.QLSP.resources
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.GUI.Config.resources
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.GUI.Login.resources
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.GUI.Main.resources
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.GUI.Sinhvien.resources
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.GUI.Frmthemncc.resources
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.GUI.Form3.resources
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.GUI.frmXemHoaDon.resources
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.GUI.Form2.resources
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.GUI.Form10.resources
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\bin\Debug\test.exe.config
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\bin\Debug\test.exe
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\bin\Debug\test.pdb
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.exe
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.pdb
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.exe.config
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\bin\Debug\itextsharp.dll
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\bin\Debug\itextsharp.xml
+C:\Users\ASUS\Desktop\Flora__new\Flora_session\Flora\obj\Debug\test.csproj.Up2Date
+C:\Users\ASUS\Desktop\Flora\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\ASUS\Desktop\Flora\bin\Debug\itextsharp.dll
+C:\Users\ASUS\Desktop\Flora\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\ASUS\Desktop\Flora\bin\Debug\itextsharp.xml
+C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.frmthemkh.resources
+C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.Frmthemncc.resources
+C:\Users\ASUS\Desktop\Flora\obj\Debug\test.GUI.frmXemHoaDon.resources
+C:\Users\ASUS\Desktop\Flora\obj\Debug\test.csproj.Up2Date
+C:\Users\ASUS\Desktop\Flora - Copy\bin\Debug\test.exe.config
+C:\Users\ASUS\Desktop\Flora - Copy\bin\Debug\test.exe
+C:\Users\ASUS\Desktop\Flora - Copy\bin\Debug\test.pdb
+C:\Users\ASUS\Desktop\Flora - Copy\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\ASUS\Desktop\Flora - Copy\bin\Debug\itextsharp.dll
+C:\Users\ASUS\Desktop\Flora - Copy\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\ASUS\Desktop\Flora - Copy\bin\Debug\itextsharp.xml
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.GUI.Form1.resources
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.GUI.Form9.resources
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.GUI.Form7.resources
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.GUI.frmNhkho.resources
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.GUI.Kho.resources
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.GUI.frmthemkh.resources
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.GUI.Form4.resources
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.GUI.QLSP.resources
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.GUI.Config.resources
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.GUI.Login.resources
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.GUI.Main.resources
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.GUI.Sinhvien.resources
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.GUI.Frmthemncc.resources
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.GUI.Form3.resources
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.GUI.frmXemHoaDon.resources
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.GUI.Form2.resources
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.GUI.Form10.resources
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.csproj.Up2Date
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.exe
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.pdb
+C:\Users\ASUS\Desktop\Flora - Copy\bin\Debug\Resources\3cb45bde-8b6f-4ed9-b4e1-117690c56c9f.png
+C:\Users\ASUS\Desktop\Flora - Copy\obj\Debug\test.exe.config
+C:\Users\ASUS\Desktop\Flora - v2\bin\Debug\Resources\3cb45bde-8b6f-4ed9-b4e1-117690c56c9f.png
+C:\Users\ASUS\Desktop\Flora - v2\bin\Debug\test.exe.config
+C:\Users\ASUS\Desktop\Flora - v2\bin\Debug\test.exe
+C:\Users\ASUS\Desktop\Flora - v2\bin\Debug\test.pdb
+C:\Users\ASUS\Desktop\Flora - v2\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\ASUS\Desktop\Flora - v2\bin\Debug\itextsharp.dll
+C:\Users\ASUS\Desktop\Flora - v2\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\ASUS\Desktop\Flora - v2\bin\Debug\itextsharp.xml
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.exe.config
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.GUI.Form1.resources
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.GUI.Form9.resources
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.GUI.Form7.resources
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.GUI.frmNhkho.resources
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.GUI.Kho.resources
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.GUI.frmthemkh.resources
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.GUI.Form4.resources
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.GUI.QLSP.resources
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.GUI.Config.resources
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.GUI.Login.resources
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.GUI.Main.resources
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.GUI.Sinhvien.resources
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.GUI.Frmthemncc.resources
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.GUI.Form3.resources
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.GUI.frmXemHoaDon.resources
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.GUI.Form2.resources
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.GUI.Form10.resources
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.csproj.Up2Date
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.exe
+C:\Users\ASUS\Desktop\Flora - v2\obj\Debug\test.pdb
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\bin\Debug\Resources\3cb45bde-8b6f-4ed9-b4e1-117690c56c9f.png
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\bin\Debug\test.exe.config
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\bin\Debug\test.exe
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\bin\Debug\test.pdb
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\bin\Debug\itextsharp.dll
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\bin\Debug\itextsharp.xml
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.csproj.AssemblyReference.cache
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.exe.config
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.Form1.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.Form9.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.Form7.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.frmNhkho.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.Kho.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.frmthemkh.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.Form4.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.QLSP.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.Config.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.Login.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.Main.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.Sinhvien.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.Frmthemncc.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.frmXemHoaDon.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.Form10.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.Properties.Resources.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.csproj.Up2Date
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.exe
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.pdb
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.frmQuanLyUser.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.frmThemSuaUser.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.frmThemDonHang.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.frmQuanLyDonHang.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\Flora - v2\Flora - v2\obj\Debug\test.GUI.Frmlichsu.resources
+C:\Users\ASUS\Desktop\flora-v3\bin\Debug\Resources\3cb45bde-8b6f-4ed9-b4e1-117690c56c9f.png
+C:\Users\ASUS\Desktop\flora-v3\bin\Debug\test.exe.config
+C:\Users\ASUS\Desktop\flora-v3\bin\Debug\test.exe
+C:\Users\ASUS\Desktop\flora-v3\bin\Debug\test.pdb
+C:\Users\ASUS\Desktop\flora-v3\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\ASUS\Desktop\flora-v3\bin\Debug\itextsharp.dll
+C:\Users\ASUS\Desktop\flora-v3\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\ASUS\Desktop\flora-v3\bin\Debug\itextsharp.xml
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.exe.config
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.Form1.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.Form9.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.Frmlichsu.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.frmQuanLyUser.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.frmThemSuaUser.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.Form7.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.frmNhkho.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.Kho.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.frmthemkh.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.Form4.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.QLSP.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.Config.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.Login.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.Main.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.Sinhvien.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.Frmthemncc.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.frmThemDonHang.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.frmXemHoaDon.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.frmQuanLyDonHang.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.GUI.Form10.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.Properties.Resources.resources
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.csproj.Up2Date
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.exe
+C:\Users\ASUS\Desktop\flora-v3\obj\Debug\test.pdb
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\bin\Debug\Resources\3cb45bde-8b6f-4ed9-b4e1-117690c56c9f.png
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\bin\Debug\test.exe.config
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\bin\Debug\test.exe
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\bin\Debug\test.pdb
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\bin\Debug\itextsharp.dll
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\bin\Debug\itextsharp.xml
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.csproj.AssemblyReference.cache
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.exe.config
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.Form1.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.Form9.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.Frmlichsu.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.frmQuanLyUser.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.frmThemSuaUser.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.Form7.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.frmNhkho.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.Kho.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.frmthemkh.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.Form4.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.QLSP.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.Config.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.Login.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.Main.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.Sinhvien.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.Frmthemncc.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.frmThemDonHang.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.frmXemHoaDon.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.frmQuanLyDonHang.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.GUI.Form10.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.Properties.Resources.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.csproj.Up2Date
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.exe
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v4\flora-v3\obj\Debug\test.pdb
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\bin\Debug\Resources\3cb45bde-8b6f-4ed9-b4e1-117690c56c9f.png
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\bin\Debug\test.exe.config
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\bin\Debug\test.exe
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\bin\Debug\test.pdb
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\bin\Debug\itextsharp.dll
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\bin\Debug\itextsharp.xml
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.exe.config
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.Form1.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.Form9.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.Frmlichsu.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.frmQuanLyUser.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.frmThemSuaUser.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.Form7.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.frmNhkho.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.Kho.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.frmthemkh.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.Form4.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.QLSP.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.Config.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.Login.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.Main.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.Sinhvien.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.Frmthemncc.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.frmThemDonHang.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.frmXemHoaDon.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.frmQuanLyDonHang.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.GUI.Form10.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.Properties.Resources.resources
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.csproj.Up2Date
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.exe
+C:\Users\ASUS\Desktop\flora-v5\flora-v5\flora-v3\obj\Debug\test.pdb
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\bin\Debug\Resources\3cb45bde-8b6f-4ed9-b4e1-117690c56c9f.png
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\bin\Debug\test.exe.config
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\bin\Debug\test.exe
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\bin\Debug\test.pdb
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\bin\Debug\itextsharp.dll
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\bin\Debug\itextsharp.xml
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.exe.config
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Form1.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Form9.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Frmlichsu.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.frmQuanLyUser.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.frmThemSuaUser.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Form7.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.frmNhkho.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Kho.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.frmthemkh.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Form4.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.QLSP.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Config.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Login.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Main.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Sinhvien.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Frmthemncc.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.frmThemDonHang.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.frmXemHoaDon.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.frmQuanLyDonHang.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Form10.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.Properties.Resources.resources
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.csproj.Up2Date
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.exe
+C:\Users\ASUS\Desktop\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.pdb
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\bin\Debug\Resources\3cb45bde-8b6f-4ed9-b4e1-117690c56c9f.png
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\bin\Debug\test.exe.config
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\bin\Debug\test.exe
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\bin\Debug\test.pdb
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\bin\Debug\itextsharp.dll
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\bin\Debug\itextsharp.xml
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.csproj.AssemblyReference.cache
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.exe.config
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Form1.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Form9.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Frmlichsu.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.frmQuanLyUser.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.frmThemSuaUser.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Form7.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.frmNhkho.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Kho.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.frmthemkh.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Form4.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.QLSP.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Config.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Login.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Main.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Sinhvien.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Frmthemncc.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.frmThemDonHang.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.frmXemHoaDon.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.frmQuanLyDonHang.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.GUI.Form10.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.Properties.Resources.resources
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.csproj.Up2Date
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.exe
+C:\Users\84373\OneDrive\Tài liệu\CNPM\Cuoiki\flora-v5 - Copy\flora-v5 - Copy\flora-v5\flora-v3\obj\Debug\test.pdb
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\bin\Debug\Resources\3cb45bde-8b6f-4ed9-b4e1-117690c56c9f.png
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\bin\Debug\test.exe.config
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\bin\Debug\test.exe
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\bin\Debug\test.pdb
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\bin\Debug\itextsharp.dll
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\bin\Debug\itextsharp.xml
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.exe.config
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.Form1.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.Form9.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.Frmlichsu.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.frmQuanLyUser.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.frmThemSuaUser.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.Form7.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.frmNhkho.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.Kho.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.frmthemkh.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.Form4.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.QLSP.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.Config.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.Login.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.Main.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.Sinhvien.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.Frmthemncc.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.frmThemDonHang.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.frmXemHoaDon.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.frmQuanLyDonHang.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.GUI.Form10.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.Properties.Resources.resources
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.csproj.Up2Date
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.exe
+C:\Users\ASUS\Desktop\52300270_52300269\52300270-52300269\obj\Debug\test.pdb
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\bin\Debug\Resources\3cb45bde-8b6f-4ed9-b4e1-117690c56c9f.png
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\bin\Debug\test.exe.config
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\bin\Debug\test.exe
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\bin\Debug\test.pdb
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\bin\Debug\BouncyCastle.Cryptography.dll
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\bin\Debug\itextsharp.dll
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\bin\Debug\BouncyCastle.Cryptography.xml
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\bin\Debug\itextsharp.xml
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.csproj.AssemblyReference.cache
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.exe.config
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.Form1.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.Form9.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.Frmlichsu.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.frmQuanLyUser.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.frmThemSuaUser.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.Form7.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.frmNhkho.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.Kho.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.frmthemkh.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.Form4.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.QLSP.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.Config.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.Login.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.Main.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.Sinhvien.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.Frmthemncc.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.frmThemDonHang.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.frmXemHoaDon.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.frmQuanLyDonHang.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.GUI.Form10.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.Properties.Resources.resources
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.csproj.GenerateResource.cache
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.csproj.CoreCompileInputs.cache
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.csproj.Up2Date
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.exe
+D:\ĐẠI HỌC\HK1-2526\CÔNG NGHỆ PHẦN MỀM\Flora\obj\Debug\test.pdb

@@ -23,7 +23,14 @@ namespace test
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+
+            // Mở form Config trước
+            Config cfg = new Config();
+            if (cfg.ShowDialog() == DialogResult.OK)
+            {
+                // Sau khi config thành công → chạy form Login là form chính
+                Application.Run(new Login());
+            }
 
         }
     }

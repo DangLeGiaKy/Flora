@@ -28,6 +28,23 @@ namespace test.DAL
 
             return new SqlConnection(strConnection);
         }
+        public static string GetConnectionString()
+        {
+            if (Program.authen == "windows")
+            {
+                return "Data Source=" + Program.server +
+                       ";Initial Catalog=" + Program.database +
+                       ";Integrated Security=True;TrustServerCertificate=True;";
+            }
+            else
+            {
+                return "server=" + Program.server +
+                       ";database=" + Program.database +
+                       ";uid=" + Program.uid +
+                       ";pwd=" + Program.password +
+                       ";TrustServerCertificate=True;";
+            }
+        }
 
         // Hàm instance để DAL dùng
         public SqlConnection GetConnection()

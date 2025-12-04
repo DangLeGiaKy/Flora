@@ -8,14 +8,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using test.DAL;
 
 namespace test.GUI
 {
     public partial class Kho : Form
     {
         // Chuỗi kết nối - Thay đổi theo cấu hình của bạn
-        private string connectionString = "Server=khanhvinh\\SQLEXPRESS;Database=FloraShopDB;Integrated Security=True;";
-
+        private string connectionString = Connection.GetConnectionString();
+        //private string connectionString = "Data Source=khanhvinh\\SQLEXPRESS;Initial Catalog=FloraShopDB;Integrated Security=True";
+        //private string connectionString = "Data Source=ANH-VU\\MSSQLSERVER01;Initial Catalog=FloraShopDB;Integrated Security=True";
+        
         public Kho()
         {
             InitializeComponent();
@@ -273,8 +276,7 @@ namespace test.GUI
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi xóa: " + ex.Message, "Lỗi",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Lỗi xóa:sản phẩm liên quan đơn hàng "  );
             }
         }
 
@@ -519,6 +521,187 @@ namespace test.GUI
             {
                 MessageBox.Show("Lỗi lưu dữ liệu: " + ex.Message, "Lỗi",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void cboSearch_TextChanged(object sender, EventArgs e)
+        {
+            string keyword = cboSearch.Text.Trim();
+
+            if (string.IsNullOrEmpty(keyword) || keyword == "Tất cả")
+            {
+                LoadKhoData();
+                return;
+            }
+
+            TimKiemTheoTen(keyword);
+        }
+        private void TimKiemTheoTen(string keyword)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+
+                    string query = @"SELECT 
+                                MaSanPham,
+                                TenSanPham,
+                                LoaiHang,
+                                GiaNhap,
+                                GiaBan,
+                                SoLuongTon,
+                                DonViTinh,
+                                CASE WHEN TrangThai = 1 THEN N'Hoạt động' ELSE N'Ngừng bán' END AS TrangThai,
+                                NgayTao,
+                                NgayCapNhat
+                             FROM Kho
+                             WHERE TenSanPham LIKE @kw
+                             ORDER BY TenSanPham ASC";
+
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@kw", "%" + keyword + "%");
+
+                    SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                    DataTable dataTable = new DataTable();
+                    adapter.Fill(dataTable);
+
+                    dgvTable.DataSource = dataTable;
+                    CustomizeDataGridView();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi tìm kiếm: " + ex.Message,
+                    "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnAdd_Paint(object sender, PaintEventArgs e)
+        {
+            Button btn = sender as Button;
+            if (btn == null) return;
+
+            Graphics g = e.Graphics;
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+            // Đổi màu nền RGB (119, 255, 0)
+            using (SolidBrush brush = new SolidBrush(Color.FromArgb(231, 255, 219)))
+            {
+                g.FillRectangle(brush, btn.ClientRectangle);
+            }
+
+            // Vẽ viền đậm
+            int borderThickness = 3; // độ dày viền
+            using (Pen pen = new Pen(Color.Black, borderThickness))
+            {
+                g.DrawRectangle(pen, 0, 0, btn.Width - 1, btn.Height - 1);
+            }
+
+            // Vẽ chữ đen đậm
+            using (Font font = new Font(btn.Font, FontStyle.Bold))
+            using (SolidBrush brush = new SolidBrush(Color.Black))
+            {
+                SizeF textSize = g.MeasureString(btn.Text, font);
+                g.DrawString(btn.Text, font, brush,
+                    (btn.Width - textSize.Width) / 2,
+                    (btn.Height - textSize.Height) / 2);
+            }
+        }
+
+        private void btnRepair_Paint(object sender, PaintEventArgs e)
+        {
+            Button btn = sender as Button;
+            if (btn == null) return;
+
+            Graphics g = e.Graphics;
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+            // Đổi màu nền RGB (119, 255, 0)
+            using (SolidBrush brush = new SolidBrush(Color.FromArgb(231, 255, 219)))
+            {
+                g.FillRectangle(brush, btn.ClientRectangle);
+            }
+
+            // Vẽ viền đậm
+            int borderThickness = 3; // độ dày viền
+            using (Pen pen = new Pen(Color.Black, borderThickness))
+            {
+                g.DrawRectangle(pen, 0, 0, btn.Width - 1, btn.Height - 1);
+            }
+
+            // Vẽ chữ đen đậm
+            using (Font font = new Font(btn.Font, FontStyle.Bold))
+            using (SolidBrush brush = new SolidBrush(Color.Black))
+            {
+                SizeF textSize = g.MeasureString(btn.Text, font);
+                g.DrawString(btn.Text, font, brush,
+                    (btn.Width - textSize.Width) / 2,
+                    (btn.Height - textSize.Height) / 2);
+            }
+        }
+
+        private void btnRemove_Paint(object sender, PaintEventArgs e)
+        {
+            Button btn = sender as Button;
+            if (btn == null) return;
+
+            Graphics g = e.Graphics;
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+            // Đổi màu nền RGB (119, 255, 0)
+            using (SolidBrush brush = new SolidBrush(Color.FromArgb(231, 255, 219)))
+            {
+                g.FillRectangle(brush, btn.ClientRectangle);
+            }
+
+            // Vẽ viền đậm
+            int borderThickness = 3; // độ dày viền
+            using (Pen pen = new Pen(Color.Black, borderThickness))
+            {
+                g.DrawRectangle(pen, 0, 0, btn.Width - 1, btn.Height - 1);
+            }
+
+            // Vẽ chữ đen đậm
+            using (Font font = new Font(btn.Font, FontStyle.Bold))
+            using (SolidBrush brush = new SolidBrush(Color.Black))
+            {
+                SizeF textSize = g.MeasureString(btn.Text, font);
+                g.DrawString(btn.Text, font, brush,
+                    (btn.Width - textSize.Width) / 2,
+                    (btn.Height - textSize.Height) / 2);
+            }
+        }
+
+        private void btnSave_Paint(object sender, PaintEventArgs e)
+        {
+            Button btn = sender as Button;
+            if (btn == null) return;
+
+            Graphics g = e.Graphics;
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+            // Đổi màu nền RGB (119, 255, 0)
+            using (SolidBrush brush = new SolidBrush(Color.FromArgb(231, 255, 219)))
+            {
+                g.FillRectangle(brush, btn.ClientRectangle);
+            }
+
+            // Vẽ viền đậm
+            int borderThickness = 3; // độ dày viền
+            using (Pen pen = new Pen(Color.Black, borderThickness))
+            {
+                g.DrawRectangle(pen, 0, 0, btn.Width - 1, btn.Height - 1);
+            }
+
+            // Vẽ chữ đen đậm
+            using (Font font = new Font(btn.Font, FontStyle.Bold))
+            using (SolidBrush brush = new SolidBrush(Color.Black))
+            {
+                SizeF textSize = g.MeasureString(btn.Text, font);
+                g.DrawString(btn.Text, font, brush,
+                    (btn.Width - textSize.Width) / 2,
+                    (btn.Height - textSize.Height) / 2);
             }
         }
     }

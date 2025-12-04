@@ -60,7 +60,6 @@ CREATE TABLE Kho (
     GiaBan DECIMAL(18, 2) NOT NULL CHECK (GiaBan >= 0),        -- ✅ GIÁ BÁN
     SoLuongTon INT NOT NULL DEFAULT 0 CHECK (SoLuongTon >= 0),
     DonViTinh NVARCHAR(20) DEFAULT N'Cái',
-    MoTa NVARCHAR(500),
     HinhAnh VARCHAR(255),
     TrangThai BIT DEFAULT 1,
     NgayTao DATETIME DEFAULT GETDATE(),
@@ -179,6 +178,7 @@ CREATE TABLE LichSuDoiMatKhau (
     NgayDoi DATETIME DEFAULT GETDATE(),
     FOREIGN KEY (MaUser) REFERENCES [User](MaUser)
 );
+
 -- ===================================
 -- INDEXES TỐI ƯU HIỆU SUẤT
 -- ===================================
@@ -190,7 +190,7 @@ CREATE INDEX idx_donhang_trangthai ON DonHang(TrangThai);
 CREATE INDEX idx_donhang_ngaydat ON DonHang(NgayDat);
 CREATE INDEX idx_donhang_makhachhang ON DonHang(MaKhachHang);
 
-CREATE INDEX idx_kho_loaihang ON Kho(LoaiHang);  -- ✅ Index cho LoaiHang
+CREATE INDEX idx_kho_loaihang ON Kho(LoaiHang);
 CREATE INDEX idx_kho_soluongton ON Kho(SoLuongTon);
 CREATE INDEX idx_kho_trangthai ON Kho(TrangThai);
 
@@ -198,6 +198,198 @@ CREATE INDEX idx_khachhang_sdt ON KhachHang(SoDienThoai);
 
 CREATE INDEX idx_phieunhap_ngaynhap ON PhieuNhapHang(NgayNhap);
 CREATE INDEX idx_phieunhap_ncc ON PhieuNhapHang(MaNhaCungCap);
+
+-- ===================================
+-- STORED PROCEDURES VÀ TRIGGERS
+-- ===================================
+
+-- ✅ TRIGGER TỰ ĐỘNG TÍNH LỢI NHUẬN CHI TIẾT HÓA ĐƠN
+GO
+CREATE TRIGGER trg_TinhLoiNhuanChiTietHoaDon
+ON ChiTietHoaDon
+AFTER INSERT, UPDATE
+AS
+BEGIN
+    UPDATE ChiTietHoaDon
+    SET 
+        ThanhTien = i.SoLuong * i.GiaBan,
+        TongGiaNhap = i.SoLuong * i.GiaNhap,
+        LoiNhuan = (i.SoLuong * i.GiaBan) - (i.SoLuong * i.GiaNhap)
+    FROM ChiTietHoaDon ct
+    INNER JOIN inserted i ON ct.MaChiTiet = i.MaChiTiet;
+END;
+GO
+
+-- ✅ TRIGGER CẬP NHẬT TỔNG TIỀN VÀ LỢI NHUẬN HÓA ĐƠN
+GO
+CREATE TRIGGER trg_CapNhatTongHoaDon
+ON ChiTietHoaDon
+AFTER INSERT, UPDATE, DELETE
+AS
+BEGIN
+    -- Cập nhật cho các hóa đơn có thay đổi
+    UPDATE HoaDon
+    SET 
+        TongTien = ISNULL((SELECT SUM(ThanhTien) FROM ChiTietHoaDon WHERE MaHoaDon = HoaDon.MaHoaDon), 0),
+        TongGiaNhap = ISNULL((SELECT SUM(TongGiaNhap) FROM ChiTietHoaDon WHERE MaHoaDon = HoaDon.MaHoaDon), 0),
+        LoiNhuan = ISNULL((SELECT SUM(LoiNhuan) FROM ChiTietHoaDon WHERE MaHoaDon = HoaDon.MaHoaDon), 0),
+        TienThoiLai = TienKhachDua - ISNULL((SELECT SUM(ThanhTien) FROM ChiTietHoaDon WHERE MaHoaDon = HoaDon.MaHoaDon), 0)
+    WHERE MaHoaDon IN (
+        SELECT MaHoaDon FROM inserted
+        UNION
+        SELECT MaHoaDon FROM deleted
+    );
+END;
+GO
+
+-- ✅ TRIGGER TÍNH LỢI NHUẬN CHI TIẾT ĐƠN HÀNG
+GO
+CREATE TRIGGER trg_TinhLoiNhuanChiTietDonHang
+ON ChiTietDonHang
+AFTER INSERT, UPDATE
+AS
+BEGIN
+    UPDATE ChiTietDonHang
+    SET 
+        ThanhTien = i.SoLuong * i.GiaBan,
+        TongGiaNhap = i.SoLuong * i.GiaNhap,
+        LoiNhuan = (i.SoLuong * i.GiaBan) - (i.SoLuong * i.GiaNhap)
+    FROM ChiTietDonHang ct
+    INNER JOIN inserted i ON ct.MaChiTiet = i.MaChiTiet;
+END;
+GO
+
+-- ✅ TRIGGER CẬP NHẬT TỔNG TIỀN VÀ LỢI NHUẬN ĐƠN HÀNG
+GO
+CREATE TRIGGER trg_CapNhatTongDonHang
+ON ChiTietDonHang
+AFTER INSERT, UPDATE, DELETE
+AS
+BEGIN
+    UPDATE DonHang
+    SET 
+        TongTien = ISNULL((SELECT SUM(ThanhTien) FROM ChiTietDonHang WHERE MaDonHang = DonHang.MaDonHang), 0),
+        TongGiaNhap = ISNULL((SELECT SUM(TongGiaNhap) FROM ChiTietDonHang WHERE MaDonHang = DonHang.MaDonHang), 0),
+        LoiNhuan = ISNULL((SELECT SUM(LoiNhuan) FROM ChiTietDonHang WHERE MaDonHang = DonHang.MaDonHang), 0),
+        NgayCapNhat = GETDATE()
+    WHERE MaDonHang IN (
+        SELECT MaDonHang FROM inserted
+        UNION
+        SELECT MaDonHang FROM deleted
+    );
+END;
+GO
+
+-- ✅ STORED PROCEDURE: THÊM CHI TIẾT HÓA ĐƠN (TỰ ĐỘNG LẤY GIÁ HIỆN TẠI)
+GO
+CREATE PROCEDURE sp_ThemChiTietHoaDon
+    @MaChiTiet VARCHAR(20),
+    @MaHoaDon VARCHAR(20),
+    @MaSanPham VARCHAR(20),
+    @SoLuong INT
+AS
+BEGIN
+    DECLARE @GiaNhap DECIMAL(18,2), @GiaBan DECIMAL(18,2);
+    
+    -- Lấy giá nhập và giá bán hiện tại từ Kho
+    SELECT @GiaNhap = GiaNhap, @GiaBan = GiaBan
+    FROM Kho
+    WHERE MaSanPham = @MaSanPham;
+    
+    -- Thêm chi tiết hóa đơn với giá tại thời điểm bán
+    INSERT INTO ChiTietHoaDon (MaChiTiet, MaHoaDon, MaSanPham, SoLuong, GiaNhap, GiaBan, ThanhTien, TongGiaNhap, LoiNhuan)
+    VALUES (
+        @MaChiTiet,
+        @MaHoaDon,
+        @MaSanPham,
+        @SoLuong,
+        @GiaNhap,
+        @GiaBan,
+        @SoLuong * @GiaBan,
+        @SoLuong * @GiaNhap,
+        (@SoLuong * @GiaBan) - (@SoLuong * @GiaNhap)
+    );
+    
+    -- Trừ số lượng tồn kho
+    UPDATE Kho
+    SET SoLuongTon = SoLuongTon - @SoLuong
+    WHERE MaSanPham = @MaSanPham;
+END;
+GO
+
+-- ✅ STORED PROCEDURE: THÊM CHI TIẾT ĐƠN HÀNG
+GO
+CREATE PROCEDURE sp_ThemChiTietDonHang
+    @MaChiTiet VARCHAR(20),
+    @MaDonHang VARCHAR(20),
+    @MaSanPham VARCHAR(20),
+    @SoLuong INT
+AS
+BEGIN
+    DECLARE @GiaNhap DECIMAL(18,2), @GiaBan DECIMAL(18,2);
+    
+    -- Lấy giá nhập và giá bán hiện tại từ Kho
+    SELECT @GiaNhap = GiaNhap, @GiaBan = GiaBan
+    FROM Kho
+    WHERE MaSanPham = @MaSanPham;
+    
+    -- Thêm chi tiết đơn hàng với giá tại thời điểm đặt
+    INSERT INTO ChiTietDonHang (MaChiTiet, MaDonHang, MaSanPham, SoLuong, GiaNhap, GiaBan, ThanhTien, TongGiaNhap, LoiNhuan)
+    VALUES (
+        @MaChiTiet,
+        @MaDonHang,
+        @MaSanPham,
+        @SoLuong,
+        @GiaNhap,
+        @GiaBan,
+        @SoLuong * @GiaBan,
+        @SoLuong * @GiaNhap,
+        (@SoLuong * @GiaBan) - (@SoLuong * @GiaNhap)
+    );
+END;
+GO
+
+-- ✅ VIEW: BÁO CÁO LỢI NHUẬN THEO NGÀY
+GO
+CREATE VIEW vw_BaoCaoLoiNhuanTheoNgay
+AS
+SELECT 
+    CAST(NgayLap AS DATE) AS Ngay,
+    COUNT(MaHoaDon) AS SoHoaDon,
+    SUM(TongTien) AS DoanhThu,
+    SUM(TongGiaNhap) AS TongChiPhi,
+    SUM(LoiNhuan) AS LoiNhuan,
+    CASE 
+        WHEN SUM(TongGiaNhap) > 0 THEN (SUM(LoiNhuan) / SUM(TongGiaNhap) * 100)
+        ELSE 0 
+    END AS TyLeLoiNhuan
+FROM HoaDon
+WHERE TrangThai = N'Đã thanh toán'
+GROUP BY CAST(NgayLap AS DATE);
+GO
+
+-- ✅ VIEW: BÁO CÁO LỢI NHUẬN THEO SẢN PHẨM
+GO
+CREATE VIEW vw_BaoCaoLoiNhuanTheoSanPham
+AS
+SELECT 
+    k.MaSanPham,
+    k.TenSanPham,
+    k.LoaiHang,
+    SUM(ct.SoLuong) AS TongSoLuongBan,
+    SUM(ct.ThanhTien) AS DoanhThu,
+    SUM(ct.TongGiaNhap) AS ChiPhi,
+    SUM(ct.LoiNhuan) AS LoiNhuan,
+    CASE 
+        WHEN SUM(ct.TongGiaNhap) > 0 THEN (SUM(ct.LoiNhuan) / SUM(ct.TongGiaNhap) * 100)
+        ELSE 0 
+    END AS TyLeLoiNhuan
+FROM ChiTietHoaDon ct
+INNER JOIN HoaDon h ON ct.MaHoaDon = h.MaHoaDon
+INNER JOIN Kho k ON ct.MaSanPham = k.MaSanPham
+WHERE h.TrangThai = N'Đã thanh toán'
+GROUP BY k.MaSanPham, k.TenSanPham, k.LoaiHang;
+GO
 
 -- ===================================
 -- DỮ LIỆU MẪU
@@ -209,17 +401,17 @@ INSERT INTO [User] VALUES
 ('U002', 'quanly01', 'ql123', N'Trần Thị Quản Lý', 'quanly@flora.vn', '0902345678', N'Quản lý', 1, GETDATE(), GETDATE()),
 ('U003', 'nhanvien01', 'nv123', N'Lê Văn Nhân Viên', 'nv@flora.vn', '0903456789', N'Nhân viên', 1, GETDATE(), GETDATE());
 
--- Kho (Sản phẩm) - ✅ Có cột LoaiHang trực tiếp
+-- Kho (Sản phẩm) - ✅ CÓ GIÁ NHẬP VÀ GIÁ BÁN
 INSERT INTO Kho VALUES 
-('SP001', N'Hoa hồng đỏ', N'Hoa tươi', 50000, 100, N'Bó',  NULL, 1, GETDATE(), GETDATE()),
-('SP002', N'Hoa tulip', N'Hoa tươi', 80000, 50, N'Bó',  NULL, 1, GETDATE(), GETDATE()),
-('SP003', N'Chậu lan hồ điệp', N'Chậu cây', 350000, 30, N'Chậu', NULL, 1, GETDATE(), GETDATE()),
-('SP004', N'Hoa ly trắng', N'Hoa tươi', 120000, 40, N'Bó',  NULL, 1, GETDATE(), GETDATE()),
-('SP005', N'Giỏ hoa chúc mừng', N'Phụ kiện', 500000, 20, N'Giỏ', NULL, 1, GETDATE(), GETDATE()),
-('SP006', N'Hoa cúc vàng', N'Hoa tươi', 35000, 80, N'Bó',  NULL, 1, GETDATE(), GETDATE()),
-('SP007', N'Chậu sen đá', N'Chậu cây', 150000, 25, N'Chậu',  NULL, 1, GETDATE(), GETDATE()),
-('SP008', N'Kẹp hoa', N'Phụ kiện', 15000, 100, N'Cái',  NULL, 1, GETDATE(), GETDATE()),
-('SP009', N'Thiệp chúc mừng', N'Quà tặng', 20000, 200, N'Cái',  NULL, 1, GETDATE(), GETDATE());
+('SP001', N'Hoa hồng đỏ', N'Hoa tươi', 35000, 50000, 100, N'Bó', NULL, 1, GETDATE(), GETDATE()),
+('SP002', N'Hoa tulip', N'Hoa tươi', 60000, 80000, 50, N'Bó', NULL, 1, GETDATE(), GETDATE()),
+('SP003', N'Chậu lan hồ điệp', N'Chậu cây', 250000, 350000, 30, N'Chậu', NULL, 1, GETDATE(), GETDATE()),
+('SP004', N'Hoa ly trắng', N'Hoa tươi', 90000, 120000, 40, N'Bó', NULL, 1, GETDATE(), GETDATE()),
+('SP005', N'Giỏ hoa chúc mừng', N'Phụ kiện', 350000, 500000, 20, N'Giỏ', NULL, 1, GETDATE(), GETDATE()),
+('SP006', N'Hoa cúc vàng', N'Hoa tươi', 25000, 35000, 80, N'Bó', NULL, 1, GETDATE(), GETDATE()),
+('SP007', N'Chậu sen đá', N'Chậu cây', 100000, 150000, 25, N'Chậu', NULL, 1, GETDATE(), GETDATE()),
+('SP008', N'Kẹp hoa', N'Phụ kiện', 10000, 15000, 100, N'Cái', NULL, 1, GETDATE(), GETDATE()),
+('SP009', N'Thiệp chúc mừng', N'Quà tặng', 12000, 20000, 200, N'Cái', NULL, 1, GETDATE(), GETDATE());
 
 -- Khách hàng
 INSERT INTO KhachHang VALUES 
@@ -233,3 +425,23 @@ INSERT INTO NhaCungCap VALUES
 ('NCC001', N'Công ty Hoa Đà Lạt', '0281234567', 'dalat@supplier.vn', N'Đà Lạt, Lâm Đồng', N'Hoa tươi', N'Uy tín, giao hàng đúng hạn', GETDATE(), GETDATE()),
 ('NCC002', N'Vườn ươm Thái Lan', '0282345678', 'thailand@supplier.vn', N'Bangkok, Thailand', N'Chậu cây', N'Cây nhập khẩu', GETDATE(), GETDATE()),
 ('NCC003', N'Công ty Phụ kiện Hoa', '0283456789', 'phukien@supplier.vn', N'Q.12, TP.HCM', N'Phụ kiện, Quà tặng', NULL, GETDATE(), GETDATE());
+
+-- ===================================
+-- VÍ DỤ SỬ DỤNG STORED PROCEDURE
+-- ===================================
+/*
+-- Tạo hóa đơn mới
+INSERT INTO HoaDon (MaHoaDon, MaKhachHang, MaNhanVien, TienKhachDua)
+VALUES ('HD001', 'KH001', 'U003', 200000);
+
+-- Thêm chi tiết hóa đơn (tự động lấy giá hiện tại và tính lợi nhuận)
+EXEC sp_ThemChiTietHoaDon 'CT001', 'HD001', 'SP001', 2;
+EXEC sp_ThemChiTietHoaDon 'CT002', 'HD001', 'SP006', 3;
+
+-- Xem báo cáo lợi nhuận theo ngày
+SELECT * FROM vw_BaoCaoLoiNhuanTheoNgay;
+
+-- Xem báo cáo lợi nhuận theo sản phẩm
+SELECT * FROM vw_BaoCaoLoiNhuanTheoSanPham
+ORDER BY LoiNhuan DESC;
+*/

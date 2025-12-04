@@ -45,6 +45,9 @@
             this.txtNewPassXn = new System.Windows.Forms.TextBox();
             this.txtNewPass = new System.Windows.Forms.TextBox();
             this.btnSave = new System.Windows.Forms.Button();
+            this.pnlShowOldPass = new System.Windows.Forms.Panel();
+            this.pnlShowNewPass = new System.Windows.Forms.Panel();
+            this.pnlShowConfirmPass = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // label3
@@ -126,7 +129,8 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '●';
             this.txtPassword.Size = new System.Drawing.Size(325, 31);
-            this.txtPassword.TabIndex = 11;
+            this.txtPassword.TabIndex = 1;
+            this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
             // txtAccount
             // 
@@ -134,7 +138,7 @@
             this.txtAccount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtAccount.Name = "txtAccount";
             this.txtAccount.Size = new System.Drawing.Size(325, 31);
-            this.txtAccount.TabIndex = 10;
+            this.txtAccount.TabIndex = 0;
             this.txtAccount.TextChanged += new System.EventHandler(this.txtdangnhap_TextChanged);
             // 
             // label7
@@ -195,7 +199,7 @@
             this.txtNewPassXn.Name = "txtNewPassXn";
             this.txtNewPassXn.PasswordChar = '●';
             this.txtNewPassXn.Size = new System.Drawing.Size(325, 31);
-            this.txtNewPassXn.TabIndex = 18;
+            this.txtNewPassXn.TabIndex = 3;
             // 
             // txtNewPass
             // 
@@ -203,7 +207,8 @@
             this.txtNewPass.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNewPass.Name = "txtNewPass";
             this.txtNewPass.Size = new System.Drawing.Size(325, 31);
-            this.txtNewPass.TabIndex = 17;
+            this.txtNewPass.TabIndex = 2;
+            this.txtNewPass.TextChanged += new System.EventHandler(this.txtNewPass_TextChanged);
             // 
             // btnSave
             // 
@@ -211,10 +216,50 @@
             this.btnSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(168, 36);
-            this.btnSave.TabIndex = 24;
+            this.btnSave.TabIndex = 4;
             this.btnSave.Text = "Lưu mật khẩu";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.button1_Click);
+            this.btnSave.Paint += new System.Windows.Forms.PaintEventHandler(this.btnSave_Paint);
+            // 
+            // pnlShowOldPass
+            // 
+            this.pnlShowOldPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlShowOldPass.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnlShowOldPass.Location = new System.Drawing.Point(1035, 258);
+            this.pnlShowOldPass.Name = "pnlShowOldPass";
+            this.pnlShowOldPass.Size = new System.Drawing.Size(57, 31);
+            this.pnlShowOldPass.TabIndex = 24;
+            this.pnlShowOldPass.Click += new System.EventHandler(this.pnlShowOldPass_Click);
+            this.pnlShowOldPass.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlShowOldPass_Paint);
+            this.pnlShowOldPass.MouseEnter += new System.EventHandler(this.pnlShowOldPass_MouseEnter);
+            this.pnlShowOldPass.MouseLeave += new System.EventHandler(this.pnlShowOldPass_MouseLeave);
+            // 
+            // pnlShowNewPass
+            // 
+            this.pnlShowNewPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlShowNewPass.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnlShowNewPass.Location = new System.Drawing.Point(1035, 355);
+            this.pnlShowNewPass.Name = "pnlShowNewPass";
+            this.pnlShowNewPass.Size = new System.Drawing.Size(57, 33);
+            this.pnlShowNewPass.TabIndex = 25;
+            this.pnlShowNewPass.Click += new System.EventHandler(this.pnlShowNewPass_Click);
+            this.pnlShowNewPass.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlShowNewPass_Paint);
+            this.pnlShowNewPass.MouseEnter += new System.EventHandler(this.pnlShowNewPass_MouseEnter);
+            this.pnlShowNewPass.MouseLeave += new System.EventHandler(this.pnlShowNewPass_MouseLeave);
+            // 
+            // pnlShowConfirmPass
+            // 
+            this.pnlShowConfirmPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlShowConfirmPass.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnlShowConfirmPass.Location = new System.Drawing.Point(1035, 445);
+            this.pnlShowConfirmPass.Name = "pnlShowConfirmPass";
+            this.pnlShowConfirmPass.Size = new System.Drawing.Size(57, 30);
+            this.pnlShowConfirmPass.TabIndex = 26;
+            this.pnlShowConfirmPass.Click += new System.EventHandler(this.pnlShowConfirmPass_Click);
+            this.pnlShowConfirmPass.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlShowConfirmPass_Paint);
+            this.pnlShowConfirmPass.MouseEnter += new System.EventHandler(this.pnlShowConfirmPass_MouseEnter);
+            this.pnlShowConfirmPass.MouseLeave += new System.EventHandler(this.pnlShowConfirmPass_MouseLeave);
             // 
             // Form10
             // 
@@ -222,6 +267,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(255)))), ((int)(((byte)(219)))));
             this.ClientSize = new System.Drawing.Size(1200, 703);
+            this.Controls.Add(this.pnlShowConfirmPass);
+            this.Controls.Add(this.pnlShowNewPass);
+            this.Controls.Add(this.pnlShowOldPass);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
@@ -242,6 +290,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form10";
             this.Text = "Đổi mật khẩu";
+            this.Load += new System.EventHandler(this.Form10_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -266,5 +315,8 @@
         private System.Windows.Forms.TextBox txtNewPassXn;
         private System.Windows.Forms.TextBox txtNewPass;
         private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Panel pnlShowOldPass;
+        private System.Windows.Forms.Panel pnlShowNewPass;
+        private System.Windows.Forms.Panel pnlShowConfirmPass;
     }
 }

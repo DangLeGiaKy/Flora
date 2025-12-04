@@ -1,90 +1,194 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\Flora\\",
+  "WorkspaceRootPath": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|c:\\users\\asus\\desktop\\flora\\gui\\nh\u1EADp kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\nh\u1EADp kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\nh\u1EADp kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\nh\u1EADp kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\nh\u1EADp kho.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\nh\u1EADp kho.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\kho.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\kho.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\th\u00EAm \u0111\u01A1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\th\u00EAm \u0111\u01A1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\qlsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\qlsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|d:\\\u0111\u1EA1i h\u1ECDc\\hk1-2526\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\flora\\gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\\u0111\u1ED5i m\u1EADt kh\u1EA9u.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\\u0111\u1ED5i m\u1EADt kh\u1EA9u.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\nh\u00E0 cung c\u1EA5p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\nh\u00E0 cung c\u1EA5p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\th\u00EAm nh\u00E0 cung c\u1EA5p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\th\u00EAm nh\u00E0 cung c\u1EA5p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\kh\u00E1ch h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\kh\u00E1ch h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\\u0111\u01A1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\\u0111\u01A1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\b\u00E1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\b\u00E1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\b\u00E1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\th\u00EAm kh\u00E1ch h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\th\u00EAm kh\u00E1ch h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\b\u00E1o c\u00E1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\b\u00E1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\b\u00E1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\frmdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\frmdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\frmquanlyuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\frmquanlyuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\\u0111\u1ED5i m\u1EADt kh\u1EA9u.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\\u0111\u1ED5i m\u1EADt kh\u1EA9u.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\\u0111\u1ED5i m\u1EADt kh\u1EA9u.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\\u0111\u1ED5i m\u1EADt kh\u1EA9u.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\kh\u00E1ch h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\kh\u00E1ch h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\frmquanlyuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\frmquanlyuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\bus\\quanlyuser.bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:bus\\quanlyuser.bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\dal\\dal_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:dal\\dal_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\xem h\u00F3a \u0111\u01A1n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\xem h\u00F3a \u0111\u01A1n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\b\u00E1o c\u00E1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\b\u00E1o c\u00E1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|C:\\Users\\ASUS\\Desktop\\Flora\\gui\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\dal\\hoadonpdfexporterr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:dal\\hoadonpdfexporterr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\dal\\hoadonpdfexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:dal\\hoadonpdfexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\frmthemsuauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\frmthemsuauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\frmthemsuauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\frmthemsuauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\th\u00EAm \u0111\u01A1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\th\u00EAm \u0111\u01A1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\nh\u1EADp kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\nh\u1EADp kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\th\u00EAm nh\u00E0 cung c\u1EA5p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\th\u00EAm nh\u00E0 cung c\u1EA5p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\th\u00EAm kh\u00E1ch h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\th\u00EAm kh\u00E1ch h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\dal\\baocaopdfexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:dal\\baocaopdfexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\lichsu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\lichsu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\lichsu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\lichsu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\th\u00EAm \u0111\u01A1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\th\u00EAm \u0111\u01A1n h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\th\u00EAm kh\u00E1ch h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\th\u00EAm kh\u00E1ch h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\th\u00EAm nh\u00E0 cung c\u1EA5p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\th\u00EAm nh\u00E0 cung c\u1EA5p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\frmdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\frmdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\b\u00E1o c\u00E1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\b\u00E1o c\u00E1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\kh\u00E1ch h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\kh\u00E1ch h\u00E0ng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\bus\\bus_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:bus\\bus_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\dal\\khachhangdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:dal\\khachhangdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\nh\u00E0 cung c\u1EA5p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\nh\u00E0 cung c\u1EA5p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\nh\u00E0 cung c\u1EA5p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\nh\u00E0 cung c\u1EA5p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\xem h\u00F3a \u0111\u01A1n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\xem h\u00F3a \u0111\u01A1n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\nh\u1EADp kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\nh\u1EADp kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\gui\\qlsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:gui\\qlsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD26BA73-9F73-475C-B344-AB14BB284386}|test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,8 +198,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserDAL.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\DAL\\UserDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\UserDAL.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\DAL\\UserDAL.cs",
+              "RelativeToolTip": "DAL\\UserDAL.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAAAKQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T11:16:28.345Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -103,242 +220,527 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Nh\u1EADp kho.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Nh\u1EADp kho.Designer.cs",
-              "RelativeDocumentMoniker": "GUI\\Nh\u1EADp kho.Designer.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Nh\u1EADp kho.Designer.cs",
-              "RelativeToolTip": "GUI\\Nh\u1EADp kho.Designer.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAgwGsAAABNAAAAAAAAAA==",
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Main.cs",
+              "RelativeDocumentMoniker": "GUI\\Main.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Main.cs",
+              "RelativeToolTip": "GUI\\Main.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAmwOAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T10:44:28.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Kho.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Kho.cs",
-              "RelativeDocumentMoniker": "GUI\\Kho.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Kho.cs [Design]",
-              "RelativeToolTip": "GUI\\Kho.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T08:14:08.262Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Login.cs",
-              "RelativeDocumentMoniker": "GUI\\Login.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Login.cs [Design]",
-              "RelativeToolTip": "GUI\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T14:38:17.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Nh\u1EADp kho.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Nh\u1EADp kho.cs",
-              "RelativeDocumentMoniker": "GUI\\Nh\u1EADp kho.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Nh\u1EADp kho.cs [Design]",
-              "RelativeToolTip": "GUI\\Nh\u1EADp kho.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T08:18:01.881Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Nh\u1EADp kho.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Nh\u1EADp kho.cs",
-              "RelativeDocumentMoniker": "GUI\\Nh\u1EADp kho.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Nh\u1EADp kho.cs",
-              "RelativeToolTip": "GUI\\Nh\u1EADp kho.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOEBAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T23:02:10.022Z",
+              "WhenOpened": "2025-12-01T20:36:08.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Login.cs",
-              "RelativeDocumentMoniker": "GUI\\Login.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Login.cs",
-              "RelativeToolTip": "GUI\\Login.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAlwC0AAABcAAAAAAAAAA==",
+              "Title": "frmDonHang.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\frmDonHang.cs",
+              "RelativeDocumentMoniker": "GUI\\frmDonHang.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\52300270_52300269\\52300270-52300269\\GUI\\frmDonHang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T22:57:26.861Z"
+              "WhenOpened": "2025-12-01T05:30:19.034Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Nh\u00E0 cung c\u1EA5p.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Nh\u00E0 cung c\u1EA5p.cs",
-              "RelativeDocumentMoniker": "GUI\\Nh\u00E0 cung c\u1EA5p.cs",
-              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Nh\u00E0 cung c\u1EA5p.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Nh\u00E0 cung c\u1EA5p.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "B\u00E1n h\u00E0ng.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\B\u00E1n h\u00E0ng.cs",
+              "RelativeDocumentMoniker": "GUI\\B\u00E1n h\u00E0ng.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\52300270_52300269\\52300270-52300269\\GUI\\B\u00E1n h\u00E0ng.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T08:46:23.536Z"
+              "WhenOpened": "2025-12-01T05:16:08.483Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs",
-              "RelativeDocumentMoniker": "GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs",
-              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "B\u00E1n h\u00E0ng.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\B\u00E1n h\u00E0ng.cs",
+              "RelativeDocumentMoniker": "GUI\\B\u00E1n h\u00E0ng.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\B\u00E1n h\u00E0ng.cs",
+              "RelativeToolTip": "GUI\\B\u00E1n h\u00E0ng.cs",
+              "ViewState": "AgIAAOcDAAAAAAAAAAA6wOcDAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T14:34:49.744Z"
+              "WhenOpened": "2025-12-01T05:16:11.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Kho.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Kho.cs",
-              "RelativeDocumentMoniker": "GUI\\Kho.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Kho.cs",
-              "RelativeToolTip": "GUI\\Kho.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAB4AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Main.cs",
+              "RelativeDocumentMoniker": "GUI\\Main.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Main.cs [Design]",
+              "RelativeToolTip": "GUI\\Main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T08:38:49.161Z"
+              "WhenOpened": "2025-12-02T14:59:07.486Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Kho.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Kho.Designer.cs",
-              "RelativeDocumentMoniker": "GUI\\Kho.Designer.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Kho.Designer.cs",
-              "RelativeToolTip": "GUI\\Kho.Designer.cs",
-              "ViewState": "AgIAAPoAAAAAAAAAAAAgwAkBAAA/AAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "frmQuanLyUser.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\frmQuanLyUser.cs",
+              "RelativeDocumentMoniker": "GUI\\frmQuanLyUser.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\52300270_52300269\\52300270-52300269\\GUI\\frmQuanLyUser.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T22:49:49.568Z"
+              "WhenOpened": "2025-12-01T11:18:25.02Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Main.cs",
-              "RelativeDocumentMoniker": "GUI\\Main.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Main.cs",
-              "RelativeToolTip": "GUI\\Main.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAywDgAAAA6AAAAAAAAAA==",
+              "Title": "\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs",
+              "RelativeDocumentMoniker": "GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\52300270_52300269\\52300270-52300269\\GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T05:40:55.146Z"
+              "WhenOpened": "2025-12-02T09:45:54.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "\u0110\u01A1n h\u00E0ng.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\\u0110\u01A1n h\u00E0ng.cs",
-              "RelativeDocumentMoniker": "GUI\\\u0110\u01A1n h\u00E0ng.cs",
-              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\\u0110\u01A1n h\u00E0ng.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\\u0110\u01A1n h\u00E0ng.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Login.cs",
+              "RelativeDocumentMoniker": "GUI\\Login.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Login.cs",
+              "RelativeToolTip": "GUI\\Login.cs",
+              "ViewState": "AgIAACoBAAAAAAAAAAAAAD4BAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T01:44:31.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Th\u00EAm nh\u00E0 cung c\u1EA5p.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Th\u00EAm nh\u00E0 cung c\u1EA5p.cs",
-              "RelativeDocumentMoniker": "GUI\\Th\u00EAm nh\u00E0 cung c\u1EA5p.cs",
-              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Th\u00EAm nh\u00E0 cung c\u1EA5p.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Th\u00EAm nh\u00E0 cung c\u1EA5p.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T08:54:53.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "B\u00E1o c\u00E1o.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\B\u00E1o c\u00E1o.cs",
-              "RelativeDocumentMoniker": "GUI\\B\u00E1o c\u00E1o.cs",
-              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\B\u00E1o c\u00E1o.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\B\u00E1o c\u00E1o.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T08:57:14.444Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Main.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Main.cs",
-              "RelativeDocumentMoniker": "GUI\\Main.cs",
-              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Main.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Main.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T15:30:37.499Z"
+              "WhenOpened": "2025-12-01T20:35:51.358Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Th\u00EAm \u0111\u01A1n h\u00E0ng.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Th\u00EAm \u0111\u01A1n h\u00E0ng.cs",
-              "RelativeDocumentMoniker": "GUI\\Th\u00EAm \u0111\u01A1n h\u00E0ng.cs",
-              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Th\u00EAm \u0111\u01A1n h\u00E0ng.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Th\u00EAm \u0111\u01A1n h\u00E0ng.cs [Design]",
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Login.cs",
+              "RelativeDocumentMoniker": "GUI\\Login.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\52300270_52300269\\52300270-52300269\\GUI\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T01:54:58.528Z"
+              "WhenOpened": "2025-12-02T08:39:12.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Th\u00EAm kh\u00E1ch h\u00E0ng.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Th\u00EAm kh\u00E1ch h\u00E0ng.cs",
-              "RelativeDocumentMoniker": "GUI\\Th\u00EAm kh\u00E1ch h\u00E0ng.cs",
-              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Th\u00EAm kh\u00E1ch h\u00E0ng.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Th\u00EAm kh\u00E1ch h\u00E0ng.cs [Design]",
+              "DocumentIndex": 7,
+              "Title": "\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs",
+              "RelativeDocumentMoniker": "GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs",
+              "RelativeToolTip": "GUI\\\u0110\u1ED5i m\u1EADt kh\u1EA9u.cs",
+              "ViewState": "AgIAAFQBAAAAAAAAAAAcwG8BAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T03:23:12.716Z"
+              "WhenOpened": "2025-12-01T20:33:24.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "Kh\u00E1ch h\u00E0ng.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Kh\u00E1ch h\u00E0ng.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Kh\u00E1ch h\u00E0ng.cs",
               "RelativeDocumentMoniker": "GUI\\Kh\u00E1ch h\u00E0ng.cs",
-              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Kh\u00E1ch h\u00E0ng.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Kh\u00E1ch h\u00E0ng.cs [Design]",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\52300270_52300269\\52300270-52300269\\GUI\\Kh\u00E1ch h\u00E0ng.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-16T02:47:28.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Config.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\Config.cs",
-              "RelativeDocumentMoniker": "GUI\\Config.cs",
-              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Config.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\Config.cs [Design]",
+              "DocumentIndex": 38,
+              "Title": "Kho.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Kho.cs",
+              "RelativeDocumentMoniker": "GUI\\Kho.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Kho.cs",
+              "RelativeToolTip": "GUI\\Kho.cs",
+              "ViewState": "AgIAAAABAAAAAAAAAAAAABYBAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T01:43:49.782Z"
+              "WhenOpened": "2025-12-03T06:09:48.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 40,
+              "Title": "Nh\u00E0 cung c\u1EA5p.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Nh\u00E0 cung c\u1EA5p.cs",
+              "RelativeDocumentMoniker": "GUI\\Nh\u00E0 cung c\u1EA5p.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Nh\u00E0 cung c\u1EA5p.cs",
+              "RelativeToolTip": "GUI\\Nh\u00E0 cung c\u1EA5p.cs",
+              "ViewState": "AgIAAEkBAAAAAAAAAAAkwHEBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T06:10:52.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Xem h\u00F3a \u0111\u01A1n.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Xem h\u00F3a \u0111\u01A1n.cs",
+              "RelativeDocumentMoniker": "GUI\\Xem h\u00F3a \u0111\u01A1n.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Xem h\u00F3a \u0111\u01A1n.cs",
+              "RelativeToolTip": "GUI\\Xem h\u00F3a \u0111\u01A1n.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T06:15:30.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BUS_KhachHang.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\BUS\\BUS_KhachHang.cs",
+              "RelativeDocumentMoniker": "BUS\\BUS_KhachHang.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\BUS\\BUS_KhachHang.cs",
+              "RelativeToolTip": "BUS\\BUS_KhachHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:10:42.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DAL_KhachHang.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\DAL\\DAL_KhachHang.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_KhachHang.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\DAL\\DAL_KhachHang.cs",
+              "RelativeToolTip": "DAL\\DAL_KhachHang.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAnwIUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:37:29.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "KhachHangDAL.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\DAL\\KhachHangDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\KhachHangDAL.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\DAL\\KhachHangDAL.cs",
+              "RelativeToolTip": "DAL\\KhachHangDAL.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAC8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:41:05.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BaoCaoPDFExporter.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\DAL\\BaoCaoPDFExporter.cs",
+              "RelativeDocumentMoniker": "DAL\\BaoCaoPDFExporter.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\DAL\\BaoCaoPDFExporter.cs",
+              "RelativeToolTip": "DAL\\BaoCaoPDFExporter.cs",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T18:15:42.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "B\u00E1o c\u00E1o.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\B\u00E1o c\u00E1o.cs",
+              "RelativeDocumentMoniker": "GUI\\B\u00E1o c\u00E1o.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\B\u00E1o c\u00E1o.cs",
+              "RelativeToolTip": "GUI\\B\u00E1o c\u00E1o.cs",
+              "ViewState": "AgIAALQBAAAAAAAAAAApwMgBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T06:07:12.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "frmDonHang.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\frmDonHang.cs",
+              "RelativeDocumentMoniker": "GUI\\frmDonHang.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\frmDonHang.cs",
+              "RelativeToolTip": "GUI\\frmDonHang.cs",
+              "ViewState": "AgIAABABAAAAAAAAAAAawCEBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:30:39.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Sinhvien.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Sinhvien.cs",
+              "RelativeDocumentMoniker": "GUI\\Sinhvien.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\flora-v5 - Copy\\flora-v5 - Copy\\flora-v5\\flora-v3\\GUI\\Sinhvien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:20:08.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmQuanLyUser.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\frmQuanLyUser.cs",
+              "RelativeDocumentMoniker": "GUI\\frmQuanLyUser.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\frmQuanLyUser.cs",
+              "RelativeToolTip": "GUI\\frmQuanLyUser.cs",
+              "ViewState": "AgIAAOIBAAAAAAAAAAAqwAsCAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T11:18:43.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QuanLyUser.BUS.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\BUS\\QuanLyUser.BUS.cs",
+              "RelativeDocumentMoniker": "BUS\\QuanLyUser.BUS.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\BUS\\QuanLyUser.BUS.cs",
+              "RelativeToolTip": "BUS\\QuanLyUser.BUS.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T11:16:51.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
               "Title": "QLSP.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\QLSP.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\QLSP.cs",
               "RelativeDocumentMoniker": "GUI\\QLSP.cs",
-              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\QLSP.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\QLSP.cs [Design]",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\flora-v5 - Copy\\flora-v5 - Copy\\flora-v5\\flora-v3\\GUI\\QLSP.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T01:19:23.29Z"
+              "WhenOpened": "2025-12-02T17:41:05.62Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "B\u00E1n h\u00E0ng.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Flora\\GUI\\B\u00E1n h\u00E0ng.cs",
-              "RelativeDocumentMoniker": "GUI\\B\u00E1n h\u00E0ng.cs",
-              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\B\u00E1n h\u00E0ng.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\Flora\\Flora\\GUI\\B\u00E1n h\u00E0ng.cs [Design]",
+              "DocumentIndex": 33,
+              "Title": "Config.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Config.cs",
+              "RelativeDocumentMoniker": "GUI\\Config.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\flora-v5 - Copy\\flora-v5 - Copy\\flora-v5\\flora-v3\\GUI\\Config.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T00:31:52.448Z"
+              "WhenOpened": "2025-12-02T14:19:06.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Kho.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Kho.cs",
+              "RelativeDocumentMoniker": "GUI\\Kho.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\flora-v5 - Copy\\flora-v5 - Copy\\flora-v5\\flora-v3\\GUI\\Kho.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T19:57:44.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Kh\u00E1ch h\u00E0ng.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Kh\u00E1ch h\u00E0ng.cs",
+              "RelativeDocumentMoniker": "GUI\\Kh\u00E1ch h\u00E0ng.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Kh\u00E1ch h\u00E0ng.cs",
+              "RelativeToolTip": "GUI\\Kh\u00E1ch h\u00E0ng.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAUwIEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:22:13.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Nh\u00E0 cung c\u1EA5p.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Nh\u00E0 cung c\u1EA5p.cs",
+              "RelativeDocumentMoniker": "GUI\\Nh\u00E0 cung c\u1EA5p.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\flora-v5 - Copy\\flora-v5 - Copy\\flora-v5\\flora-v3\\GUI\\Nh\u00E0 cung c\u1EA5p.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T08:46:23.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Th\u00EAm kh\u00E1ch h\u00E0ng.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Th\u00EAm kh\u00E1ch h\u00E0ng.cs",
+              "RelativeDocumentMoniker": "GUI\\Th\u00EAm kh\u00E1ch h\u00E0ng.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Th\u00EAm kh\u00E1ch h\u00E0ng.cs",
+              "RelativeToolTip": "GUI\\Th\u00EAm kh\u00E1ch h\u00E0ng.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAtwCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T20:11:06.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Th\u00EAm \u0111\u01A1n h\u00E0ng.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Th\u00EAm \u0111\u01A1n h\u00E0ng.cs",
+              "RelativeDocumentMoniker": "GUI\\Th\u00EAm \u0111\u01A1n h\u00E0ng.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\flora-v5 - Copy\\flora-v5 - Copy\\flora-v5\\flora-v3\\GUI\\Th\u00EAm \u0111\u01A1n h\u00E0ng.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T01:54:58.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Th\u00EAm \u0111\u01A1n h\u00E0ng.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Th\u00EAm \u0111\u01A1n h\u00E0ng.cs",
+              "RelativeDocumentMoniker": "GUI\\Th\u00EAm \u0111\u01A1n h\u00E0ng.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Th\u00EAm \u0111\u01A1n h\u00E0ng.cs",
+              "RelativeToolTip": "GUI\\Th\u00EAm \u0111\u01A1n h\u00E0ng.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAhwI4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:04:14.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Th\u00EAm nh\u00E0 cung c\u1EA5p.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Th\u00EAm nh\u00E0 cung c\u1EA5p.cs",
+              "RelativeDocumentMoniker": "GUI\\Th\u00EAm nh\u00E0 cung c\u1EA5p.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Th\u00EAm nh\u00E0 cung c\u1EA5p.cs",
+              "RelativeToolTip": "GUI\\Th\u00EAm nh\u00E0 cung c\u1EA5p.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAtwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T20:37:33.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Nh\u1EADp kho.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Nh\u1EADp kho.cs",
+              "RelativeDocumentMoniker": "GUI\\Nh\u1EADp kho.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Nh\u1EADp kho.cs",
+              "RelativeToolTip": "GUI\\Nh\u1EADp kho.cs",
+              "ViewState": "AgIAAJwBAAAAAAAAAAAAwMABAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T20:36:36.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "lichsu.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\lichsu.cs",
+              "RelativeDocumentMoniker": "GUI\\lichsu.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\lichsu.cs",
+              "RelativeToolTip": "GUI\\lichsu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:58:47.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmThemSuaUser.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\frmThemSuaUser.cs",
+              "RelativeDocumentMoniker": "GUI\\frmThemSuaUser.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\frmThemSuaUser.cs",
+              "RelativeToolTip": "GUI\\frmThemSuaUser.cs",
+              "ViewState": "AgIAAA8BAAAAAAAAAAApwCMBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T11:18:57.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HoaDonPDFExporterr.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\DAL\\HoaDonPDFExporterr.cs",
+              "RelativeDocumentMoniker": "DAL\\HoaDonPDFExporterr.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\DAL\\HoaDonPDFExporterr.cs",
+              "RelativeToolTip": "DAL\\HoaDonPDFExporterr.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:55:15.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HoaDonPDFExporter.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\DAL\\HoaDonPDFExporter.cs",
+              "RelativeDocumentMoniker": "DAL\\HoaDonPDFExporter.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\DAL\\HoaDonPDFExporter.cs",
+              "RelativeToolTip": "DAL\\HoaDonPDFExporter.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAHEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T05:44:09.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmThemSuaUser.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\frmThemSuaUser.cs",
+              "RelativeDocumentMoniker": "GUI\\frmThemSuaUser.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\flora-v5 - Copy\\flora-v5 - Copy\\flora-v5\\flora-v3\\GUI\\frmThemSuaUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T11:18:55.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "lichsu.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\lichsu.cs",
+              "RelativeDocumentMoniker": "GUI\\lichsu.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\flora-v5 - Copy\\flora-v5 - Copy\\flora-v5\\flora-v3\\GUI\\lichsu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T11:11:45.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Xem h\u00F3a \u0111\u01A1n.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Xem h\u00F3a \u0111\u01A1n.cs",
+              "RelativeDocumentMoniker": "GUI\\Xem h\u00F3a \u0111\u01A1n.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\flora-v5 - Copy\\flora-v5 - Copy\\flora-v5\\flora-v3\\GUI\\Xem h\u00F3a \u0111\u01A1n.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T05:16:46.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Nh\u1EADp kho.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Nh\u1EADp kho.cs",
+              "RelativeDocumentMoniker": "GUI\\Nh\u1EADp kho.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\flora-v5 - Copy\\flora-v5 - Copy\\flora-v5\\flora-v3\\GUI\\Nh\u1EADp kho.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:41:52.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Th\u00EAm kh\u00E1ch h\u00E0ng.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Th\u00EAm kh\u00E1ch h\u00E0ng.cs",
+              "RelativeDocumentMoniker": "GUI\\Th\u00EAm kh\u00E1ch h\u00E0ng.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\flora-v5 - Copy\\flora-v5 - Copy\\flora-v5\\flora-v3\\GUI\\Th\u00EAm kh\u00E1ch h\u00E0ng.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T20:11:00.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Th\u00EAm nh\u00E0 cung c\u1EA5p.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Th\u00EAm nh\u00E0 cung c\u1EA5p.cs",
+              "RelativeDocumentMoniker": "GUI\\Th\u00EAm nh\u00E0 cung c\u1EA5p.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\flora-v5 - Copy\\flora-v5 - Copy\\flora-v5\\flora-v3\\GUI\\Th\u00EAm nh\u00E0 cung c\u1EA5p.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:56:38.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:40:56.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "B\u00E1o c\u00E1o.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\B\u00E1o c\u00E1o.cs",
+              "RelativeDocumentMoniker": "GUI\\B\u00E1o c\u00E1o.cs",
+              "ToolTip": "C:\\Users\\84373\\OneDrive\\T\u00E0i li\u1EC7u\\CNPM\\Cuoiki\\flora-v5 - Copy\\flora-v5 - Copy\\flora-v5\\flora-v3\\GUI\\B\u00E1o c\u00E1o.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T05:20:32.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Config.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Config.cs",
+              "RelativeDocumentMoniker": "GUI\\Config.cs",
+              "ToolTip": "D:\\\u0110\u1EA0I H\u1ECCC\\HK1-2526\\C\u00D4NG NGH\u1EC6 PH\u1EA6N M\u1EC0M\\Flora\\GUI\\Config.cs",
+              "RelativeToolTip": "GUI\\Config.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAG8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T20:33:18.665Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 161,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

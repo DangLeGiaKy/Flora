@@ -8,18 +8,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using test.DAL;
 
 namespace test.GUI
 {
     public partial class frmNhkho : Form
     {
         // Chuỗi kết nối
-        private string connectionString = "Server=khanhvinh\\SQLEXPRESS;Database=FloraShopDB;Integrated Security=True;";
-
+        private string connectionString = Connection.GetConnectionString();
+        //private string connectionString = "Data Source=khanhvinh\\SQLEXPRESS;Initial Catalog=FloraShopDB;Integrated Security=True";
+        //private string connectionString = "Data Source=ANH-VU\\MSSQLSERVER01;Initial Catalog=FloraShopDB;Integrated Security=True";
+        
         public frmNhkho()
         {
             InitializeComponent();
             this.Load += frmNhkho_Load;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void frmNhkho_Load(object sender, EventArgs e)
@@ -412,6 +416,38 @@ namespace test.GUI
         private void cboNCC_SelectedIndexChanged(object sender, EventArgs e) { }
         private void txtSoLuong_TextChanged(object sender, EventArgs e) { }
         private void txtGiaNhap_TextChanged(object sender, EventArgs e) { }
+
+        private void btnNhapHang_Paint(object sender, PaintEventArgs e)
+        {
+            Button btn = sender as Button;
+            if (btn == null) return;
+
+            Graphics g = e.Graphics;
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+            // Đổi màu nền RGB (119, 255, 0)
+            using (SolidBrush brush = new SolidBrush(Color.FromArgb(231, 255, 219)))
+            {
+                g.FillRectangle(brush, btn.ClientRectangle);
+            }
+
+            // Vẽ viền đậm
+            int borderThickness = 3; // độ dày viền
+            using (Pen pen = new Pen(Color.Black, borderThickness))
+            {
+                g.DrawRectangle(pen, 0, 0, btn.Width - 1, btn.Height - 1);
+            }
+
+            // Vẽ chữ đen đậm
+            using (Font font = new Font(btn.Font, FontStyle.Bold))
+            using (SolidBrush brush = new SolidBrush(Color.Black))
+            {
+                SizeF textSize = g.MeasureString(btn.Text, font);
+                g.DrawString(btn.Text, font, brush,
+                    (btn.Width - textSize.Width) / 2,
+                    (btn.Height - textSize.Height) / 2);
+            }
+        }
     }
 
     // Class hỗ trợ cho ComboBox
